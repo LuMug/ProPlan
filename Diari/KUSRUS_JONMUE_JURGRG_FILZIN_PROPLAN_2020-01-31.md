@@ -6,8 +6,9 @@
 
 | Orario        | Lavoro svolto |
 |---------------|---------------|
-| 8:20 - 11:35 | Creato il gantt, trovati altri spunti da programmi simili, continuata la documentazione. |
-| 13:15 - 16:30 |  |
+| 8:20 - 11:35  | Creato il gantt, trovati altri spunti da programmi simili, continuata la documentazione, inserite idee in *trello*. |
+| 13:15 - 16:30 | Fatto il use case. |
+| 16:00 - 16:30 | Creato il [README.md](./../README.md) |
 
 ##  Problemi riscontrati e soluzioni adottate
 La versione precedentemente iniziata della documentazione non è stata salvata correttamente. L'abbiamo rifatta.

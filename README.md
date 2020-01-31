@@ -12,10 +12,13 @@ Il lavoro è svolto nella SAMT (*Scuola Arti e Mestieri Trevano*).
 
 I sviluppatori sono: 
 
-- *Filippo Zinetti* — [github](https://github.com/Fil-Z)
-- *Jure Grgic* — [github](https://github.com/GrgJur)
-- *Kushtrim Rushi* — [github](https://github.com/kushustrim)
-- *Jonathan Mueller* — [github](https://github.com/JonathanMuellerCat)
+|*Nome*|*Link github*|*Email*|
+|------|-------------|-------|
+|*Filippo Zinetti*|[link github](https://github.com/Fil-Z)|filippo.zinetti@samtrevano.ch|
+|*Jure Grgic*|[link github](https://github.com/GrgJur)|jure.grgic@samtrevano.ch|
+|*Kushtrim Rushi*|[link github](https://github.com/kushustrim)|kushtrim.rushi@samtrevano.ch|
+|*Jonathan Mueller*|[link github](https://github.com/JonathanMuellerCat)|jonathan.mueller@samtrevano.ch|
+
 
 ## Documentazione
 - [Documentazione](./Modelli/DocumentazioneCompleta.md)

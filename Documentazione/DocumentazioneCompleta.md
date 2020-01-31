@@ -108,7 +108,7 @@ La richiesta è la creazione di un programma che permette di gestire i proprio p
   |Req-08|Sezione amministratori|1|1.0|...|
   |Req-09|Interfaccia di login|1|1.0|...|
   |Req-10|Colori adatti anche per i daltonici|2|1.0|...|
-  |Req-11|Controllo indirizzo email|1|1.0|permesso solo per @samtrevano.che — @edu.ti.ch|
+  |Req-11|Controllo indirizzo email|1|1.0|permesso solo per @samtrevano.ch — @edu.ti.ch|
   |Req-12|Database per il salvataggio dei progetti|1|1.0|...|
   |Req-13|Il database permette di riaprire i vecchi progetti|1|1.0|...|
   |Req-14|Creazione sito web con tutorial programma|2|1.0|...|

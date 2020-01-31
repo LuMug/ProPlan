@@ -14,7 +14,8 @@
 ##  Problemi riscontrati e soluzioni adottate
 La versione precedentemente iniziata della documentazione non è stata salvata correttamente. L'abbiamo rifatta.
 
-##  Punto della situazione rispetto alla pianificazione
-Per fare l'use case abbiamo impiegato tutta la giornata dato che si è rivelato più lungo del previsto, perché 
+##  Punto della situazione rispetto alla pianificazioni
+
+Per fare il diagramma dei casi d’uso abbiamo impiegato tutto il pomeriggio poiché il progetto è molto esteso.
 
 ## Programma di massima per la prossima giornata di lavoro

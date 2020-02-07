@@ -75,14 +75,13 @@
   su cui lavorare, non si sa dove metterli e magari vengono messi in un 
   disco, che in seguito verranno lasciati nel dimenticatoio. 
   
-  Per questo motivo, abbiamo creato ProPlan, un sito web/applicativo che 
+  Per questo motivo, abbiamo creato ProPlan, un sito web che 
   permette di creare progetti e di poterli gestire in seguito. 
   
   Tutti i vostri progetti possono essere racchiusi in un unico posto. 
   Esistono svariati siti web simili a questo, che permettono la gestione 
-  dei progetti, però l'applicativo/sito web
-  che il nostro team di sviluppo ha creato, è più pratico e semplice da 
-  capire.
+  dei progetti, però il sito web che il nostro team di sviluppo ha creato, 
+  è più pratico e semplice da capire.
 
 
 ### Scopo
@@ -110,6 +109,28 @@ Si possono creare anche delle bozze di progetti, ovvero non dei veri e propri pr
 	- Non sono presenti convenzioni o standard nel dominio
 
 ### Analisi e specifica dei requisiti
+
+  |**ID**            |Req-1                                                                          |
+  |------------------|-------------------------------------------------------------------------------|
+  |**Nome**          | Deve essere presente un admin globale                                         |
+  |**Priorità**      |                                                                               |
+  |**Versione**      |                                                                               |
+  |**Note**          |                                                                               |
+
+  req-1: Deve essere presente un admin globale
+  req-2: L'admin globale deve aver il controllo assoluto del sito web
+  req-3: Ci possono essere degli ospiti per un progetto
+  req-4: Gli ospiti hanno un permesso di sola lettura in un determinato progetto
+  req-5: Ogni progetto avrà un capoprogetto
+  req-6: È possibile nominare un cocapo del progetto
+  req-7: Possono essere nominati dei membri del progetto
+  req-8: Ogni membro ha la possibilità di lavorare sul progetto, con qualche piccola restrizione.
+  req-9: Si deve avere la possibilità di poter creare un bozza di progetto. (Nota: non è un progetto effettivo, ma sarà solo una prova dove poter scrivere le idee iniziali di un progetto)
+  req-10: Il sito web deve essere realizzato con HTML, CSS, JS e Python
+  req-11: Dovranno essere specificati dei dettagli del progetto, ovvero, nome del progetto, attività,
+  lista dei membri, l'inizio e la fine del progetto, descrizione del progetto.
+  req-12: È necessario che vengano specificati nome, descrizione e durata di un attività
+  req-
 
   |**ID**|**Nome**        |**Priorità**|**Vers**|**Note**|
   |------|----------------|------------|--------|--------|

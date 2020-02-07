@@ -113,21 +113,22 @@ Si possono creare anche delle bozze di progetti, ovvero non dei veri e propri pr
 
   |**ID**|**Nome**        |**Priorità**|**Vers**|**Note**|
   |------|----------------|------------|--------|--------|
-  |Req-01|Gerarchia dell'applicazione (admin, utente)|1|1.0|...|
-  |Req-02|Molti tipi di utenti (capoprogetto, ospite, …)|1|1.0|...|
-  |Req-03|Divisione progetti (bozza, finale)|1|1.0|...|
-  |Req-04|Dettagli progetti (nome, descizione, lista membri, inizio e fine)|1|1.0|...|
-  |Req-05|Dettagi attività (nome, descrizione, durata)|1|1.0|...|
-  |Req-06|Stati attività (idea, da fare, in esecuzione, terminato, testato, approvato)|1|1.0|...|
-  |Req-07|Sezione bug|2|1.0|...|
-  |Req-08|Sezione amministratori|1|1.0|...|
-  |Req-09|Interfaccia di login|1|1.0|...|
-  |Req-10|Colori adatti anche per i daltonici|2|1.0|...|
-  |Req-11|Controllo indirizzo email|1|1.0|permesso solo per @samtrevano.ch — @edu.ti.ch|
-  |Req-12|Database per il salvataggio dei progetti|1|1.0|...|
-  |Req-13|Il database permette di riaprire i vecchi progetti|1|1.0|...|
-  |Req-14|Creazione sito web con tutorial programma|2|1.0|...|
-  |Req-15|Download dell'applicativo tramite sito web|2|1.0|...|
+  |Req-01|Il programma è fatto come applicativo o sito web|1|1.0|...|
+  |Req-02|Gerarchia dell'applicazione (admin, utente)|1|1.0|...|
+  |Req-03|Ci devono essere più tipi di utente (capoprogetto, ospite, …)|1|1.0|...|
+  |Req-04|Un progetto può essre una bozza o un progetto finale|1|1.0|...|
+  |Req-05|Dettagli progetti (nome, descrizione, lista membri, inizio e fine)|1|1.0|...|
+  |Req-06|Dettagi attività (nome, descrizione, durata)|1|1.0|...|
+  |Req-07|Stati attività (idea, da fare, in esecuzione, terminato, testato, approvato)|1|1.0|...|
+  |Req-08|Sezione bug|2|1.0|...|
+  |Req-09|Sezione amministratori|1|1.0|...|
+  |Req-10|Interfaccia di login|1|1.0|...|
+  |Req-11|Colori adatti anche per i daltonici|2|1.0|...|
+  |Req-12|Controllo indirizzo email|1|1.0|consentito solo per @samtrevano.ch — @edu.ti.ch|
+  |Req-13|Database per il salvataggio dei progetti|1|1.0|...|
+  |Req-14|Il database permette di riaprire i vecchi progetti|1|1.0|...|
+  |Req-15|Creazione sito web con tutorial programma|2|1.0|...|
+  |Req-16|Download dell'applicativo tramite sito web|2|1.0|...|
 
 
 **Spiegazione elementi tabella dei requisiti:**
@@ -154,14 +155,12 @@ requisiti.
 
 ### Use case
 
-Il programma verrà utilizzato quando serve gestire in modo rapido un progetto di gruppo.
-
 
 ### Pianificazione
 
 Gantt preventivo:
 
-![Gant preventivo](:/img/ganttpreventivo.png)
+![Gant preventivo](../Pianificazione/ProPlan_GanttPreventivo.PNG)
 
 ### Analisi dei mezzi
 

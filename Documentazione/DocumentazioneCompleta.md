@@ -89,23 +89,25 @@
 
 Il progetto ci è stato assegnato dalla scuola, il che lo rende un progetto didattico.
 
-La richiesta è la creazione di un programma che permette di gestire i proprio progetti in modo sicuro e rapido.
+ProPlan ha lo scopo di gestire i progetti.
 
+Non vi è nessuna restrizione sul tipo di progetto che si può creare. 
+
+Alla creazione di un progetto si possono creare le attività del progetto e si possono definire i permessi di altri utenti, nominando magari un cocapo progetto oppure un semplice membro del progetto.
+
+Si possono creare anche delle bozze di progetti, ovvero non dei veri e propri progetti, ma delle idee per il progetto vero e proprio.
 
 ## Analisi
 
 ### Analisi del dominio
 
- - Esistono molti progetti simili, il problema di essi è la complessità e la confusione dell'applicativo
- 
- - Il problema verrà risolto dal nostro programma
- 
- - Ogni persona che vorrà pianificare o progettare qualcosa potrà usufruire del prodotto
- 
- - L'utente deve saper le basi di un progetto e soprattutto deve saper lavorare in team
- 
- - Non esistono convenzione riguardanti il progetto
-
+	- Inizialmente si presentaerà una schermata di autenticazione utente
+	- ProPlan verrà usufruito nell'ambiente scolastico (SAMT), andando a sostituire altri programmi (es: trello)
+	- Il ruolo di utente, verrà assegnato agli allievi e docenti della SAMT (scuola arti e mestieri di Trevano)
+	- Gli utenti hanno bisogno di gestire i loro progetti
+	- Chi utilizzerà codesto applicativo, dovrà saper utilizzare un computer
+	- Dovrà essere a conoscenza delle basi di gestione dei progetti
+	- Non sono presenti convenzioni o standard nel dominio
 
 ### Analisi e specifica dei requisiti
 

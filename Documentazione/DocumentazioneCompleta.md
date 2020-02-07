@@ -51,25 +51,38 @@
 
 ### Informazioni sul progetto
 
-Questo progetto si chiama ProPlan, è fatto come progetto si 2° semestre presso l'arti e mestieri di Trevano.
+  #### Il nome del progetto è ProPlan, è fatto come progetto si 2° semestre presso l'arti e mestieri di Trevano.
 
- - Allievi: Kushtrim Rushi, Filippo Zinetti, Jure Grgic, Jonathan Mueller
- 
- - Docenti: Luca Muggiasca, Geo Petrini
- 
- - Scuola: SAMT (arti e mestieri Trevano)
- 
- - Sezione: informatica
- 
- - Materia: modulo 306
- 
- - Inizio: 17/01/2020 — Fine: 15/05/2020
+    Allievi: Kushtrim Rushi, Filippo Zinetti, Jure Grgic, Jonathan Mueller
+
+	Docente responsabile al controllo del lavoro: Luca Muggiasca
+
+	Data inizio del progetto: 17 Gennaio 2020
+
+	Data fine del progetto: 15 Maggio 2020
+
+	Luogo di lavoro: Scuola arti e mestieri di Trevano
+
+	Sezione scolastica: 3° anno d'informatica
+
+	Materia dove viene svolto il lavoro: modulo 306
 
 ### Abstract
 
-Ci sono molti modi per gestire i progetti, ma sono compicati e confusi.
-
-Il nostro progetto consiste nel creare un'applicazione accesibile a tutti, per poter gestire in modo rapido, efficace e semplice i progetti di gruppo.
+  Oggi giorno ci sono migliaia di progetti che vengono creati.
+  
+  Al termine di ogni progetto oppure quando si hanno più progetti 
+  su cui lavorare, non si sa dove metterli e magari vengono messi in un 
+  disco, che in seguito verranno lasciati nel dimenticatoio. 
+  
+  Per questo motivo, abbiamo creato ProPlan, un sito web/applicativo che 
+  permette di creare progetti e di poterli gestire in seguito. 
+  
+  Tutti i vostri progetti possono essere racchiusi in un unico posto. 
+  Esistono svariati siti web simili a questo, che permettono la gestione 
+  dei progetti, però l'applicativo/sito web
+  che il nostro team di sviluppo ha creato, è più pratico e semplice da 
+  capire.
 
 
 ### Scopo

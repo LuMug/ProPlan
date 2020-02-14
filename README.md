@@ -21,7 +21,7 @@ I sviluppatori sono:
 
 
 ## Documentazione
-- [Documentazione](./Documentazione/DocumentazioneCompleta.md)
+- [Documentazione](./Documentazione/DocumentazioneProPlan.md)
 
 ## Diari
 - [Diario 24/01/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-01-24.md)

@@ -26,13 +26,13 @@
 ## Introduzione
 ### Informazioni sul progetto
 **Nome: ProPlan**
-Allievi: Kushtrim Rushi, Filippo Zinetti, Jure Grgic, Jonathan Müller
-Docente responsabile al controllo del lavoro: Luca Muggiasca
-Data inizio del progetto: 17 Gennaio 2020
-Data fine del progetto: 15 Maggio 2020
-Luogo di lavoro: Scuola arti e mestieri di Trevano, Canobbio
-Sezione scolastica: 3° anno d'informatica
-Materia dove viene svolto il lavoro: modulo 306
+- Allievi: Kushtrim Rushi, Filippo Zinetti, Jure Grgic, Jonathan Müller
+- Docente responsabile al controllo del lavoro: Luca Muggiasca
+- Data inizio del progetto: 17 Gennaio 2020
+- Data fine del progetto: 15 Maggio 2020
+- Luogo di lavoro: Scuola arti e mestieri di Trevano, Canobbio
+- Sezione scolastica: 3° anno d'informatica
+- Materia dove viene svolto il lavoro: modulo 306
 
 ### Abstract
 Migliaia sono i progetti che ogni giorno vengono avviati. Hanno diverse dimensioni, diversi scopi e finscono in diversi modi, ma quello che hanno in comune è una delle fasi cruciali, che deve essere svolta all'inizio indipendentemente da tutto: la progettazione.
@@ -112,6 +112,8 @@ quali ad esempio:
     efficacemente nel dominio?
     -->
 ### Analisi e specifica dei requisiti
+
+<!--
 |**ID**            |Req-1                                                                          |
 |------------------|-------------------------------------------------------------------------------|
 |**Nome**          | Deve essere presente un admin globale                                         |
@@ -131,26 +133,33 @@ req-10: Il sito web deve essere realizzato con HTML, CSS, JS e Python
 req-11: Dovranno essere specificati dei dettagli del progetto, ovvero, nome del progetto, attività,
 lista dei membri, l'inizio e la fine del progetto, descrizione del progetto.
 req-12: È necessario che vengano specificati nome, descrizione e durata di un attività
-req-
+req- 
+-->
 
 |**ID**|**Nome**        |**Priorità**|**Vers**|**Note**|
 |------|----------------|------------|--------|--------|
-|Req-01|Ci deve essere una piattaforma web|1|1.0|...|
-|Req-02|Gerarchia dell'applicazione (admin, utente)|1|1.0|...|
-|Req-03|Ci devono essere più tipi di utente (capoprogetto, ospite, …)|1|1.0|...|
-|Req-04|Un progetto può essre una bozza o un progetto finale|1|1.0|...|
-|Req-05|Dettagli progetti (nome, descrizione, lista membri, inizio e fine)|1|1.0|...|
-|Req-06|Dettagi attività (nome, descrizione, durata)|1|1.0|...|
-|Req-07|Stati attività (idea, da fare, in esecuzione, terminato, testato, approvato)|1|1.0|...|
-|Req-08|Sezione bug|2|1.0|...|
-|Req-09|Sezione amministratori|1|1.0|...|
-|Req-10|Interfaccia di login|1|1.0|...|
-|Req-11|Colori adatti anche per i daltonici|2|1.0|...|
-|Req-12|Controllo indirizzo email|1|1.0|consentito solo per @samtrevano.ch — @edu.ti.ch|
-|Req-13|Database per il salvataggio dei progetti|1|1.0|...|
-|Req-14|Il database permette di riaprire i vecchi progetti|1|1.0|...|
-|Req-15|Creazione sito web con tutorial programma|2|1.0|...|
-|Req-16|Download dell'applicativo tramite sito web|2|1.0|...|
+|Req-01|Realizzare un sito web per la gesitone dei progetti|1|1.0|...|
+|Req-02|Il sito web è programmato in python|1|1.0|...|
+|Req-03|Ci deve essere una schermata di signup e una di login|1|1.0|...|
+|Req-04|Ci deve essere una schermata di password recovery|1|1.0|...|
+|Req-05|Ci sono due tipi di utente a livello del login (admin, utente)|1|1.0|...|
+|Req-06|Ci deve essere una schermata principale con la lista dei progetti|1|1.0|...|
+|Req-07|Si può creare un progetto|1|1.0|...|
+|Req-08|Un progetto deve avere dei dettagli (nome, descrizione, lista membri, inizio e fine)|1|1.0|...|
+|Req-09|Un progetto può essere una bozza o un progetto finale|1|1.0|...|
+|Req-10|Una bozza si può convertire in un progetto finale|1|1.0|...|
+|Req-11|Un progetto può essere pubblico o privato (non visibile da non-membri)|1|1.0|...|
+|Req-12|Gli utenti hanno ruoli diversi a livello di progetto (capoprogetto, ospite, …)|1|1.0|...|
+|Req-13|Nel progetto si possono creare delle attività|1|1.0|...|
+|Req-14|Si possono modificare le informazioni di un progetto|1|1.0|...|
+|Req-15|Una attività deve avere dei dettagli (nome, descrizione, durata)|1|1.0|...|
+|Req-16|Un'attività può essere in determinate sezioni (idea, da fare, in esecuzione, terminato, testato, approvato)|1|1.0|...|
+|Req-17|Si possono creare nuove sezioni|1|1.0|...|
+|Req-18|Ci deve essere una sezione dove si può reportare i bug|2|1.0|...|
+|Req-19|Vanno controllati gli indirizzi email per registrarsi|1|1.0|consentito solo per @samtrevano.ch — @edu.ti.ch|
+|Req-20|Ci deve essere un database per il salvataggio dei progetti|1|1.0|...|
+|Req-21|Si possono utilizzare le attività di un progetto concluso come nuove attività|1|1.0|...|
+|Req-22|Ci deve essere una pagina dedicata al tutorial|2|1.0|...|
 
 <!--
 **Spiegazione elementi tabella dei requisiti:**

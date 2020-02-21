@@ -141,25 +141,24 @@ req-
 |Req-01|Realizzare un sito web per la gesitone dei progetti|1|1.0|...|
 |Req-02|Il sito web è programmato in python|1|1.0|...|
 |Req-03|Ci deve essere una schermata di signup e una di login|1|1.0|...|
-|Req-04|Ci deve essere una schermata di password recovery|1|1.0|...|
+|Req-04|Ci deve essere una schermata di password recovery|3|1.0|...|
 |Req-05|Ci sono due tipi di utente a livello del login (admin, utente)|1|1.0|...|
-|Req-06|Ci deve essere una schermata principale con la lista dei progetti|1|1.0|...|
+|Req-06|Ci deve essere una schermata principale con la lista dei progetti|2|1.0|...|
 |Req-07|Si può creare un progetto|1|1.0|...|
 |Req-08|Un progetto deve avere dei dettagli (nome, descrizione, lista membri, inizio e fine)|1|1.0|...|
 |Req-09|Un progetto può essere una bozza o un progetto finale|1|1.0|...|
-|Req-10|Una bozza si può convertire in un progetto finale|1|1.0|...|
+|Req-10|Una bozza si può convertire in un progetto finale|2|1.0|...|
 |Req-11|Un progetto può essere pubblico o privato (non visibile da non-membri)|1|1.0|...|
 |Req-12|Gli utenti hanno ruoli diversi a livello di progetto (capoprogetto, ospite, …)|1|1.0|...|
 |Req-13|Nel progetto si possono creare delle attività|1|1.0|...|
-|Req-14|Si possono modificare le informazioni di un progetto|1|1.0|...|
+|Req-14|Si possono modificare le informazioni di un progetto|2|1.0|...|
 |Req-15|Una attività deve avere dei dettagli (nome, descrizione, durata)|1|1.0|...|
 |Req-16|Un'attività può essere in determinate sezioni (idea, da fare, in esecuzione, terminato, testato, approvato)|1|1.0|...|
 |Req-17|Si possono creare nuove sezioni|1|1.0|...|
 |Req-18|Ci deve essere una sezione dove si può reportare i bug|2|1.0|...|
-|Req-19|Vanno controllati gli indirizzi email per registrarsi|1|1.0|consentito solo per @samtrevano.ch — @edu.ti.ch|
+|Req-19|Vanno controllati gli indirizzi email per registrarsi|2|1.0|consentito solo per @samtrevano.ch — @edu.ti.ch|
 |Req-20|Ci deve essere un database per il salvataggio dei progetti|1|1.0|...|
-|Req-21|Si possono utilizzare le attività di un progetto concluso come nuove attività|1|1.0|...|
-|Req-22|Ci deve essere una pagina dedicata al tutorial|2|1.0|...|
+|Req-21|Si possono utilizzare le attività di un progetto concluso come nuove attività|4|1.0|!!!|
 
 <!--
 **Spiegazione elementi tabella dei requisiti:**

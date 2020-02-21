@@ -12,7 +12,7 @@
 | 13:15 - 16:30 | Strutturato DB, aggiunto comandi al DB, controllo email|
 | 15:10 - 15:40 | Fatto il diario in modo dettagliato |
 | 15:00 - 16:30 | Creato account e impostato progetti |
-| 15:30 - 16:00 | Fatta l'interfaccia di home |
+| 15:30 - 16:00 | Fatta l'interfaccia di home con link funzionanti |
 
 ##  Problemi riscontrati e soluzioni adottate
 

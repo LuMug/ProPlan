@@ -270,6 +270,7 @@
 'Roles': 'Roles',
 'Rows in Table': 'Righe nella tabella',
 'Rows selected': 'Righe selezionate',
+'Saluti avventuriero, è Jonny che parla, se stai leggendo questo messaggio l`operazione di unione del git è stata un successo. Saluti': 'Saluti avventuriero, è Jonny che parla, se stai leggendo questo messaggio l`operazione di unione del git è stata un successo. Saluti',
 'Save model as...': 'Salva modello come...',
 'Save profile': 'Salva profilo',
 'Search': 'Ricerca',

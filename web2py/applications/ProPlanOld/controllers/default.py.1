@@ -1,0 +1,27 @@
+# -*- coding: utf-8 -*-
+### required - do no delete
+def user(): return dict(form=auth())
+def download(): return response.download(request,db)
+def call(): return service()
+### end requires
+def index():
+    return dict()
+
+def add_something():
+    return dict();
+
+def utente_manage():
+    form = SQLFORM.smartgrid(db.t_utente,onupdate=auth.archive)
+    return locals()
+
+def permessi_manage():
+    form = SQLFORM.smartgrid(db.t_permessi,onupdate=auth.archive)
+    return locals()
+
+def progetto_manage():
+    form = SQLFORM.smartgrid(db.t_progetto,onupdate=auth.archive)
+    return locals()
+
+def attivita_manage():
+    form = SQLFORM.smartgrid(db.t_attivita,onupdate=auth.archive)
+    return locals()

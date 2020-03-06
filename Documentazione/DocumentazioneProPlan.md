@@ -133,7 +133,7 @@ req-10: Il sito web deve essere realizzato con HTML, CSS, JS e Python
 req-11: Dovranno essere specificati dei dettagli del progetto, ovvero, nome del progetto, attività,
 lista dei membri, l'inizio e la fine del progetto, descrizione del progetto.
 req-12: È necessario che vengano specificati nome, descrizione e durata di un attività
-req- 
+req-
 -->
 
 |**ID**|**Nome**        |**Priorità**|**Vers**|**Note**|

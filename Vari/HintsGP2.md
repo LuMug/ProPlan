@@ -8,7 +8,7 @@ SQLFORM.smartgrid(db.table, param1=...)
 - return con dictionary
 - 'nome':nome
 - db.table.col
-- SQLFORM: 
+- SQLFORM:
 - .factory(db.table)
 - ".... ()".....
 - dict con ":", "**d" è espansione di dictionary = tanti argomenti
@@ -21,16 +21,15 @@ SQLFORM.smartgrid(db.table, param1=...)
 - update: set mio o dati veri?
 	- update_record (vero)/update(in memoria)
 	- row.update_record() --> commit
-	
+
 - argomento a caso = non visibile
 
 	(a):
 		a = request.vars.a if 'a' (se esiste)
-		
+
 - ajax: funzionni senza refresh
 
 
 app, controller, funzione, arogmenti (vars, args), sottomenu
 
-amministrazione db -> 
-		
+amministrazione db ->

@@ -1,3 +1,0 @@
-{{extend 'layout.html'}}
-<h1>Questo è il template view_utenti.html</h1>
-{{=BEAUTIFY(response._vars)}}

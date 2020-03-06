@@ -1,23 +1,36 @@
 # ProPlan
+## _Un modo semplice per gestire piccoli progetti IT_
 
 
 ## Descrizione
 
-Ci sono molti modi per gestire i progetti, ma sono compicati e o confusi.
+Migliaia sono i progetti che ogni giorno vengono avviati. Hanno diverse dimensioni, diversi scopi e finscono in diversi modi, ma quello che hanno in comune è la progettazione.
 
-Il nostro progetto consiste nel creare un'applicazione accesibile a tutti, per poter gestire in modo rapido, efficace e semplice i progetti di gruppo.
+Esistono diverse soluzioni per gestire questa fase, ma quello che manca è **semplicità** e **immediatezza** nel loro utilizzo.
+
+È per questo che abbiamo sviluppato ProPlan, uno strumento che permette di creare e gestire piccoli progetti in modo immediato e senza quindi perdersi in impostazioni e funzionalità superflue.
+
+## Come accedervi
+La piattaforma è disponibile a questo link: (https://proplansamt2020.pythonanywhere.com/ProPlan)[https://proplansamt2020.pythonanywhere.com/ProPlan]
+
+_**Nota:** Per effetturare la registrazione è necessaria una mail con dominio samtrevano.ch o edu.ti.ch_
 
 
+## Informazioni tecniche sullo progetto
+### Come è stato fatto
+ProPlan è sviluppato in [python](https://www.python.org/) con il framework [web2py](http://web2py.com/), e online grazie a [pythonAnywhere](https://www.pythonanywhere.com/).
+
+### Chi siamo
 Il lavoro è svolto nella SAMT (*Scuola Arti e Mestieri Trevano*).
 
-I sviluppatori sono: 
+Gli sviluppatori sono:
 
-|*Nome*|*Link github*|*Email*|
+| **Nome** | **Link github** | **Email** |
 |------|-------------|-------|
-|*Filippo Zinetti*|[link github](https://github.com/Fil-Z)|filippo.zinetti@samtrevano.ch|
-|*Jure Grgic*|[link github](https://github.com/GrgJur)|jure.grgic@samtrevano.ch|
-|*Kushtrim Rushi*|[link github](https://github.com/kushustrim)|kushtrim.rushi@samtrevano.ch|
-|*Jonathan Mueller*|[link github](https://github.com/JonathanMuellerCat)|jonathan.mueller@samtrevano.ch|
+|*Filippo Zinetti*|[Fil-Z](https://github.com/Fil-Z)|filippo.zinetti@samtrevano.ch|
+|*Jure Grgic*|[GrgJur](https://github.com/GrgJur)|jure.grgic@samtrevano.ch|
+|*Kushtrim Rushi*|[Kushustrim](https://github.com/kushustrim)|kushtrim.rushi@samtrevano.ch|
+|*Jonathan Mueller*|[JonathanMuellerCat](https://github.com/JonathanMuellerCat)|jonathan.mueller@samtrevano.ch|
 
 
 ## Documentazione

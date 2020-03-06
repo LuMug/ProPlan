@@ -10,8 +10,8 @@ Esistono diverse soluzioni per gestire questa fase, ma quello che manca è **sem
 
 È per questo che abbiamo sviluppato ProPlan, uno strumento che permette di creare e gestire piccoli progetti in modo immediato e senza quindi perdersi in impostazioni e funzionalità superflue.
 
-## Come accedervi
-La piattaforma è disponibile a questo link: (https://proplansamt2020.pythonanywhere.com/ProPlan)[https://proplansamt2020.pythonanywhere.com/ProPlan]
+## Come accedere alla piattaforma
+La piattaforma è disponibile al seguente link link: https://proplansamt2020.pythonanywhere.com/ProPlan
 
 _**Nota:** Per effetturare la registrazione è necessaria una mail con dominio samtrevano.ch o edu.ti.ch_
 

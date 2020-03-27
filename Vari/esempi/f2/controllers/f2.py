@@ -8,7 +8,7 @@ def form():
     f = TABLE()
     for row in rows:
         f.append( TR(row) )
-    return {'f':f}    
+    return {'f':f}
 
 def _table_row_serializer(form, fields):
     row = TR()
@@ -17,7 +17,7 @@ def _table_row_serializer(form, fields):
 
     for id, label, controls, help in fields:
         #logger.debug('field data: id=[{}] label=[{}] controls=[{}] help=[{}]'.format(id, label, controls, help))
-        #add onchange event       
+        #add onchange event
         if isinstance(controls, INPUT) and controls.attributes['_type'] == 'submit':
             controls.attributes['_id'] = '{form_id}_submit'.format(form_id = form_id)
             controls.attributes['_style'] = 'display:none;'
@@ -40,13 +40,13 @@ def load_row():
     #logger.debug('load_row {}'.format(request.vars))
 
     row_id = request.vars.row_id
-    
+
     if row_id != None:
         record = db.testdata(row_id)
         form_name = 'row_form_{}'.format(row_id)
         form_id = 'row_form_{}'.format(row_id)
         form_onchange = "document.getElementById('{form_id}_submit').click()".format(form_id = form_id)
-        form = SQLFORM(db.testdata, record,  formstyle=_table_row_serializer, _name=form_name, _id=form_id, showid=False    )    
+        form = SQLFORM(db.testdata, record,  formstyle=_table_row_serializer, _name=form_name, _id=form_id, showid=False    )
         form['_onchange'] = form_onchange
 
     else:

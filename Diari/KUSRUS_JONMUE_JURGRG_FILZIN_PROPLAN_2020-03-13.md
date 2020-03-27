@@ -13,7 +13,7 @@
 
 
 ##  Problemi riscontrati e soluzioni adottate
-Non eravano sicuri di quale database usare: quello di default di web2py (con una struttura di tabelle apparentemente inutilmente complicata, ma con alcune tabelle e controlli utili già definiti) o uno nostro (sul quale pensavamo di poter avere più controllo, ma con vari fattori da dover definire da zero). Alla fine, abbiamo integrato il nostro database con quello già esistente.
+Non eravamo sicuri di quale database usare: quello di default di web2py (con una struttura di tabelle apparentemente inutilmente complicata, ma con alcune tabelle e controlli utili già definiti) o uno nostro (sul quale pensavamo di poter avere più controllo, ma con vari fattori da dover definire da zero). Alla fine, abbiamo integrato il nostro database con quello già esistente.
 
 ##  Punto della situazione rispetto alla pianificazione
 Abbiamo avuto diversi contrattempi oggi, riguardanti l'attuale situazione di lavoro da casa. Non abbiamo perso tempo, ma abbiamo dovuto dedicarlo ad altre questioni riguardanti la materia, e questo ci ha fatto ottenere meno risultati del previsto per oggi.

@@ -17,7 +17,7 @@
     - confirmSignup.html
     - forgotPassword.html
     - retrievePassword.html
-- home
+- home  
     - index.html
     - help.html
 - projectlist

@@ -234,8 +234,13 @@ Descrizione delle strutture di dati utilizzate dal programma in base
 agli attributi e le relazioni degli oggetti in uso.
 
 ### Schema E-R, schema logico e descrizione.
+
+![Schema E/R](../Progettazione/diagrammaERProPlan.svg)
+
+<!--
 Se il diagramma E-R viene modificato, sulla doc dovrà apparire l’ultima
 versione, mentre le vecchie saranno sui diari.
+-->
 
 ### Design delle interfacce
 Descrizione delle interfacce interne ed esterne del sistema e

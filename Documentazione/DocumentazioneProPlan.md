@@ -205,7 +205,8 @@ presenta? Che hw sarà disponibile durante lo sviluppo?
 
 ## Progettazione
 
-**\*schema use cases***
+![Schema use cases](../Progettazione/ProPlan_useCases.svg)
+
 <!--
 Questo capitolo descrive esaustivamente come deve essere realizzato il
 prodotto fin nei suoi dettagli. Una buona progettazione permette

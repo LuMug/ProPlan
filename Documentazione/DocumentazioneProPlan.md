@@ -205,7 +205,8 @@ presenta? Che hw sarà disponibile durante lo sviluppo?
 
 ## Progettazione
 
-**\*schema use cases***
+![Schema use cases](../Progettazione/ProPlan_useCases.svg)
+
 <!--
 Questo capitolo descrive esaustivamente come deve essere realizzato il
 prodotto fin nei suoi dettagli. Una buona progettazione permette
@@ -233,8 +234,13 @@ Descrizione delle strutture di dati utilizzate dal programma in base
 agli attributi e le relazioni degli oggetti in uso.
 
 ### Schema E-R, schema logico e descrizione.
+
+![Schema E/R](../Progettazione/diagrammaERProPlan.svg)
+
+<!--
 Se il diagramma E-R viene modificato, sulla doc dovrà apparire l’ultima
 versione, mentre le vecchie saranno sui diari.
+-->
 
 ### Design delle interfacce
 Descrizione delle interfacce interne ed esterne del sistema e

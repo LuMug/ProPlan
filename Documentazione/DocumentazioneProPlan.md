@@ -32,7 +32,7 @@
 - Data fine del progetto: 15 Maggio 2020
 - Luogo di lavoro: Scuola arti e mestieri di Trevano, Canobbio
 - Sezione scolastica: 3° anno d'informatica
-- Materia dove viene svolto il lavoro: modulo 306
+- Materia: modulo 306 (Realizzare un progetto IT)
 
 ### Abstract
 Migliaia sono i progetti che ogni giorno vengono avviati. Hanno diverse dimensioni, diversi scopi e finscono in diversi modi, ma quello che hanno in comune è una delle fasi cruciali, che deve essere svolta all'inizio indipendentemente da tutto: la progettazione.
@@ -81,8 +81,8 @@ Esempio di abstract:
 
 ### Scopo
 Il progetto ci è stato assegnato dalla scuola ed è quindi un progetto didattico, ma potrà poi risultare utile anche a coloro che necessiteranno di gestire un progetto di gruppo nei prossimi anni.
-L'obbettivo è quello di creare uno strumento simile a quelli già esistenti, ma con meno funzionalità in modo da risultare più semplice per gli utilizzatori. Le soluzioni attuali presentano infatti diversi elementi superflui per il target di ProPlan, di cui anche gli sviluppatori hanno fanno parte, ed è quindi sull'analisi dei bisogni e degli elementi di disturbo che la piattaforma è sviluppata.
-L'applicativo sarà reso disponibile tramite pagina web, quindi raggiungibile da ovunque.
+L'obbettivo è quello di creare uno strumento simile ad alcuni già esistenti, ma con funzionalità meno dispersive in modo da risultare più semplice per gli utilizzatori. Le soluzioni attuali presentano infatti diversi elementi superflui per il target di ProPlan, di cui anche gli sviluppatori hanno fanno parte, ed è quindi sull'analisi dei bisogni e degli elementi di disturbo che la piattaforma è sviluppata.
+L'applicativo sarà reso disponibile tramite pagina web, quindi raggiungibile da ovunque tramite l'apposito dominio.
 
 <!--
 Lo scopo del progetto (scopi didattici/scopi operativi). Dovrebbe
@@ -91,7 +91,7 @@ quaderno dei compiti (che va invece allegato).
 -->
 ## Analisi
 ### Analisi del dominio
-ProPlan è progettato per l'uso nell'ambiente scolastico della SAMT, andando a sostituire altri programmi (es: trello, eventualmente Microsoft Project e Project Libre). Il software dovrà risiedere da qualche parte nella rete della scuola o quantomeno accessibile da questa, e dovrà quindi far fronte al proxy che blocca parte delle comunicazioni. Lo sviluppo dovrà avvenire in ambienti locali.
+ProPlan è progettato per l'uso nell'ambiente scolastico della SAMT, andando a sostituire altri programmi (es: trello, eventualmente Microsoft Project e Project Libre). Il software dovrà risiedere da qualche parte nella rete della scuola o quantomeno accessibile da questa, e dovrà quindi far fronte al proxy che blocca parte delle comunicazioni. Lo sviluppo avverrà su una piattaforma apposita di hosting online [pyhtonanywhere](https://www.pythonanywhere.com/).
 Gli utilizzatori saranno allievi ed eventualmente docenti mandanti della SAMT (scuola arti e mestieri di Trevano), che necessitano rispettivamente di imparare e di valutare la gestione dei progetti.
 La conoscenza richiesta, oltre al saper utilizzare un computer per interagire con la pagina vera e propria, è quella di una base delle modalità di gestione di un progetto per poter amministrare l'incarico e un minimo di propensione nel lavoro in team.
 
@@ -185,12 +185,24 @@ requisiti.
 ### Pianificazione
 Gantt preventivo:
 ![Gant preventivo](../Pianificazione/ProPlan_GanttPreventivo.PNG)
+Il lavoro durerà 5 mesi, da gennaio a maggio. Abbiamo pianificato un mese di studio (fino a inizio febbraio), due settimane di design, circa 3 mesi di implementazione e infine due settimane di test e rifinimenti vari. Inoltre, per un mese dall'inizio del progetto dovremo inoltre dedicare parte del tempo ad imparare gli strumenti da utilizzare.
 
 ### Analisi dei mezzi
+
+#### Linguaggio
 L'applicativo si basa su python, un linguaggio di alto livello disponibile su ogni piattaforma e che si distingue per la sua sintassi severa rispetto all'indentazione, a favore di una scrittura spesso più breve.
+
+#### Framework
 Per lo sviluppo è stato utilizzato Web2py, un framework leggero e pensato per creare piccole applicazioni web. Inoltre, integra SQLite, le librerie necessarie per interagirci ed eventualmente la possiblità di espandere il database (passando, per esempio, ad Oracle o mySQL) senza problemi grazie all'alto livello di astrazione.
-L'ambiente di sviluppo sarà locale per evitare problemi di rete, quindi l'hardware è rappresentato da computer portatili che integreranno il server grazie a web2py e dei client simulati tramite browser.
+
+#### Hosting
+L'ambiente di sviluppo sarà la piattaforma di hosting pythonanywhere, quindi l'hardware è rappresentato da computer portatili che integreranno il server grazie a web2py e dei client simulati tramite browser.
 La piattaforma di funzionamento è vincolata non a sistemi operativi specifici, quanto più ai browser che andranno a visitare le pagine del sito, i quali dovranno essere abbastanza recenti ed aggiornati da supportare le funzioni del software.
+
+#### Altre librerie
+
+##### Highcharts - Libreria javascript
+Per realzzare i diagrammi di gantt abbiamo utilizzato la libreria messa a disposizione da [Highcharts](https://www.highcharts.com/): questa libreria permette la creazione di diversi tipi di grafici convertendoli da codice JSON.
 
 <!--
 Elencare e *descrivere* i mezzi disponibili per la realizzazione del
@@ -204,9 +216,6 @@ presenta? Che hw sarà disponibile durante lo sviluppo?
 -->
 
 ## Progettazione
-
-![Schema use cases](../Progettazione/ProPlan_useCases.svg)
-
 <!--
 Questo capitolo descrive esaustivamente come deve essere realizzato il
 prodotto fin nei suoi dettagli. Una buona progettazione permette
@@ -216,6 +225,14 @@ nell’implementazione del prodotto.
 
 ### Design dell’architettura del sistema
 **\*da controllare**
+![Schema use cases](../Progettazione/ProPlan_useCases.svg)
+La base della nostra progettazione è questo diagramma, che rappresenta in stile use case le interazioni possibili e gli indirizzamenti conseguenti dell'applcaizone. Non è propriamente uno schema dei casi d'uso, poichè ne abbiamo definito regole riconosciute solo all'interno del team di lavoro e visibili nella legenda allegata al diagramma.
+
+Il suo scopo è rappresentare in forma schematica le schermate e pulsanti disponibili, ma senza scendere nei dettagli della parte visiva.
+
+#### Struttura delle cartelle
+Per avere in chiaro dove lavorare e per trovare un accordo sulla struttura dei link, abbiamo definito la [struttura delle cartelle](../Progettazione/strutturaCartelle.md) che avrebbero dovuto essere usate per il sito.
+
 Alla creazione di un progetto si possono creare le attività del progetto e si possono definire i permessi di altri utenti, nominando magari un cocapo progetto oppure un semplice membro del progetto.
 Si possono creare anche delle bozze di progetti, ovvero non dei veri e propri progetti, ma delle idee per il progetto vero e proprio.
 
@@ -230,8 +247,8 @@ dati* (DFD).
 -->
 
 ### Design dei dati e database
-Descrizione delle strutture di dati utilizzate dal programma in base
-agli attributi e le relazioni degli oggetti in uso.
+<!--Descrizione delle strutture di dati utilizzate dal programma in base
+agli attributi e le relazioni degli oggetti in uso.-->
 
 ### Schema E-R, schema logico e descrizione.
 
@@ -243,12 +260,26 @@ versione, mentre le vecchie saranno sui diari.
 -->
 
 ### Design delle interfacce
-Descrizione delle interfacce interne ed esterne del sistema e
+
+#### Progetti iniziali
+Abbiamo cominciato disegnando alcune schermate in modo da renderci conto di quali elementi avremmo avuto bisogno. Non sono state scelte di comune accordo, quindi risultano diverse dal risultato finale.
+![Popup creazione progetto](../Progettazione/popup_creazione_progetto.png)
+![Progetti personali](../Progettazione/schermata_progetti_personali.png)
+![Home](../Progettazione/schermata_home.png)
+
+In seguito abbiamo anche provato a disegnare delle schermate con programmi appositi, ma non eravamo in chiaro sugli strumenti che avremmo avuto a disposizione per crearle, quindi anche queste si differenziano dal design definitivo.
+![Login](../Progettazione/Schermata_Login.png)
+![Sing in](../Progettazione/Schermata_Registrazione.png)
+<!--Descrizione delle interfacce interne ed esterne del sistema e
 dell’interfaccia utente. La progettazione delle interfacce è basata
 sulle informazioni ricavate durante la fase di analisi e realizzata
-tramite mockups.
+tramite mockups.-->
 
 ### Design procedurale
+![Diagramma UML](../Progettazione/UMLDiagramm.svg)
+Il diagramma UML spiega in modo più dettagliato la logica descrivendo i nomi dei metodi e il loro livello nella struttura MVC (model, view, contorller)
+
+<!--
 Descrive i concetti dettagliati dell’architettura/sviluppo utilizzando
 ad esempio:
 -   Diagrammi di flusso e Nassi.
@@ -257,7 +288,7 @@ ad esempio:
 -   Tabelle di routing
 -   Diritti di accesso a condivisioni …
 Questi documenti permetteranno di rappresentare i dettagli procedurali
-per la realizzazione del prodotto.
+per la realizzazione del prodotto.-->
 
 ## Implementazione
 
@@ -340,7 +371,7 @@ progetto.
 -->
 ## Consuntivo
 Gantt consuntivo:
-![Gantt consuntivo](./img/ganttconsuntivo.png)
+![Gantt consuntivo](../Pianificazione/ganttconsuntivo.png)
 
 ## Conclusioni
 

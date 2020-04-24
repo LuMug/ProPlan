@@ -1,6 +1,6 @@
 # ProPlan | Diario di lavoro
 ##### Kushtrim Rushi & Jure Grgic & Jonathan Mueller & Filippo Zinetti
-### Trevano, 2020-00-00
+### Trevano, 2020-04-24
 
 ## Lavori svolti
 

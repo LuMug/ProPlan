@@ -318,6 +318,7 @@ Per eventuali dettagli si possono inserire riferimenti ai diari.
 ### Protocollo di test
 
 |*Test Case*|*TC-01*|
+|-----------|-------|
 |Nome|Sito web|
 |Riferimento|Req-01|
 |Descrizione|Deve esistere un sito web funzionante che permette di gestire i progetti|
@@ -326,6 +327,7 @@ Per eventuali dettagli si possono inserire riferimenti ai diari.
 |Risultati attesi|Bisogna vedersi un sito funzionante|
 
 |*Test Case*|*TC-02*|
+|-----------|-------|
 |Nome|Signup, Login|
 |Riferimento|Req-03|
 |Descrizione|Il sito deve permettere ad un utente di registrarsi o loggarsi all'interno del sito, per entrare nel sito serve email e password|
@@ -334,6 +336,7 @@ Per eventuali dettagli si possono inserire riferimenti ai diari.
 |Risultati attesi|Alla fine di tutto si dovra essere alla pagine principale del sito "/home/index"|
 
 |*Test Case*|*TC-03*|
+|-----------|-------|
 |Nome|Password recovery|
 |Riferimento|Req-04|
 |Descrizione|Deve essere possibile poter cambiare password in caso che si sia dimenticata o in caso che untento voglia di sua spontanea volontà di cambiare password|
@@ -342,6 +345,7 @@ Per eventuali dettagli si possono inserire riferimenti ai diari.
 |Risultati attesi|Al loggin deve essere possibile loggarsi con la password cambiata e non con la vecchia password|
 
 |*Test Case*|*TC-04*|
+|-----------|-------|
 |Nome|Lista progetti|
 |Riferimento|Req-06|
 |Descrizione|Ci deve essere una pagina nel sito in cui c'è la lista dei propri progetti|
@@ -350,6 +354,7 @@ Per eventuali dettagli si possono inserire riferimenti ai diari.
 |Risultati attesi|Una volta finito si deve essere nella pagina dove ci sono tutti i progetti che una persona ha fatto, quelli che sta facendo e quelli che deve fare, la pagina è "/projectlist/index"|
 
 |*Test Case*|*TC-05*|
+|-----------|-------|
 |Nome|Creazione progetto|
 |Riferimento|Req-07|
 |Descrizione|Si può creare un nuovo progetto, così poi ci si puoi lavorare|
@@ -358,6 +363,7 @@ Per eventuali dettagli si possono inserire riferimenti ai diari.
 |Risultati attesi|Una volta fatto "Crea" nella lista dei progetti dovrebbe apparire il nuovo progetto con i dati che si sono definiti alla creazione|
 
 |*Test Case*|*TC-06*|
+|-----------|-------|
 |Nome|Evuluzione di una bozza|
 |Riferimento|Req-10|
 |Descrizione|Dato che un progetto può essere una bozza (il progetto che è una bozza può solo butare giù delle idee) o un progetto finale (nel progetto finale è possibile inserire più dati: data_inizio, data_fine, team, …), una volta che si è scelto una bozza si può fare un upgrade del progetto e renderlo finale così da definire un team e le date di inizio e fine.|
@@ -366,6 +372,7 @@ Per eventuali dettagli si possono inserire riferimenti ai diari.
 |Risultati attesi|Il risultato deve essere un progetto finale dove è possibile inserire data inizio, fine e inserire il team di lavoro|
 
 |*Test Case*|*TC-07*|
+|-----------|-------|
 |Nome|Progetto publicco o privato|
 |Riferimento|Req-11|
 |Descrizione|Un progetto può essere pubblico (visibile a tutte le persone) o privato (visibile alle persone che fan parte del team di progetto), e si deve poter scegliere se il progetto sia uno o l'altro|
@@ -374,6 +381,7 @@ Per eventuali dettagli si possono inserire riferimenti ai diari.
 |Risultati attesi||
 
 |*Test Case*|*TC-08*|
+|-----------|-------|
 |Nome|Creazione attività|
 |Riferimento|Req-13|
 |Descrizione|In un progetto si può creare un attività che un persona del team dovrà svolgere per il compimento del progetto|
@@ -382,6 +390,7 @@ Per eventuali dettagli si possono inserire riferimenti ai diari.
 |Risultati attesi|Una volta creato l'attività si dovrebbe vedre la stessa attività nella sezione selezionata|
 
 |*Test Case*|*TC-09*|
+|-----------|-------|
 |Nome|Creazione di sezione|
 |Riferimento|Req-17|
 |Descrizione|Ci sono le sezione di default (per chi vuole), ma in caso che serve aggiungere più sezioni un utente può farlo, così da poter mettere le attività di propria creazione|
@@ -390,6 +399,7 @@ Per eventuali dettagli si possono inserire riferimenti ai diari.
 |Risultati attesi|Una volta inserita una nuova sezione dovrebbe vedersi aparrire questa nella pagine di progetto e si potrebbe aggiungere un'attività in questa sezione|
 
 |*Test Case*|*TC-10*|
+|-----------|-------|
 |Nome|Spostamento attività|
 |Riferimento|Req-16|
 |Descrizione|Si può fare in modo di spostare una attività da una sezione ad un'altra|
@@ -398,6 +408,7 @@ Per eventuali dettagli si possono inserire riferimenti ai diari.
 |Risultati attesi|Si dovrà vedere l'attività nella nuova sezione e non in quella vecchia (da dove si è spostato)|
 
 |*Test Case*|*TC-11*|
+|-----------|-------|
 |Nome|Email corretti|
 |Riferimento|Req-19|
 |Descrizione|Dato che il progetto è scolastico, è possibile collegarsi solo con account della scuola ovvero per gli allievi "@samtrevano.ch" mentre per i professori "@edu.ti.ch"|

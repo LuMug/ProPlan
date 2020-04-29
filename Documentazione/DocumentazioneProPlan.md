@@ -224,9 +224,8 @@ nell’implementazione del prodotto.
 -->
 
 ### Design dell’architettura del sistema
-**\*da controllare**
 ![Schema use cases](../Progettazione/ProPlan_useCases.svg)
-La base della nostra progettazione è questo diagramma, che rappresenta in stile use case le interazioni possibili e gli indirizzamenti conseguenti dell'applcaizone. Non è propriamente uno schema dei casi d'uso, poichè ne abbiamo definito regole riconosciute solo all'interno del team di lavoro e visibili nella legenda allegata al diagramma.
+La base della nostra progettazione è questo diagramma, che rappresenta in stile use case le interazioni possibili e gli indirizzamenti conseguenti dell'applicazione. Non è propriamente uno schema dei casi d'uso, poichè ne abbiamo definito regole riconosciute solo all'interno del team di lavoro e visibili nella legenda allegata al diagramma.
 
 Il suo scopo è rappresentare in forma schematica le schermate e pulsanti disponibili, ma senza scendere nei dettagli della parte visiva.
 
@@ -324,6 +323,106 @@ Per eventuali dettagli si possono inserire riferimenti ai diari.
 
 ### Protocollo di test
 
+|*Test Case*|*TC-01*|
+|-----------|-------|
+|Nome|Sito web|
+|Riferimento|Req-01|
+|Descrizione|Deve esistere un sito web funzionante che permette di gestire i progetti|
+|Prerequisiti|…|
+|Procedura|Andare su internet e cercare il sito web, una volta trovato entrarci e vedere se funziona il tutto |
+|Risultati attesi|Bisogna vedersi un sito funzionante|
+
+|*Test Case*|*TC-02*|
+|-----------|-------|
+|Nome|Signup, Login|
+|Riferimento|Req-03|
+|Descrizione|Il sito deve permettere ad un utente di registrarsi o loggarsi all'interno del sito, per entrare nel sito serve email e password|
+|Prerequisiti|…|
+|Procedura|Una volta entrati nel sito questo ti reindizerrà nella pagina di signup, e si posso inserire i vari dati poi ci sarà una conferma per email, in caso che si ha già un account c'è un riferimento al login dove si posso inserire i dati per loggarsi|
+|Risultati attesi|Alla fine di tutto si dovra essere alla pagine principale del sito "/home/index"|
+
+|*Test Case*|*TC-03*|
+|-----------|-------|
+|Nome|Password recovery|
+|Riferimento|Req-04|
+|Descrizione|Deve essere possibile poter cambiare password in caso che si sia dimenticata o in caso che untento voglia di sua spontanea volontà di cambiare password|
+|Prerequisiti|…|
+|Procedura|In caso si sia dimenticato nella pagina di login c'è un link che porta alla pagina di password recovery, una volta arrivati qui basta inserire la propria mail e arrivare nella mail box della persona una mail con un codice, inserire il codice nel sito e poi si potrà cambiare password, invece se una persona vuole cambiare la propria mail in alto a destra ci sono le informazione dell'utente, c'è un bottone che permette di andare nella nella password recovery e eseguire lo stesso passaggio di prima|
+|Risultati attesi|Al loggin deve essere possibile loggarsi con la password cambiata e non con la vecchia password|
+
+|*Test Case*|*TC-04*|
+|-----------|-------|
+|Nome|Lista progetti|
+|Riferimento|Req-06|
+|Descrizione|Ci deve essere una pagina nel sito in cui c'è la lista dei propri progetti|
+|Prerequisiti|…|
+|Procedura|Dopo il login nella pagina principale del sito c'è una categoria "Personali", bisogna cliccarci sopra e comparirà un drop down, nel drop down c'è un link alla lista di progetti|
+|Risultati attesi|Una volta finito si deve essere nella pagina dove ci sono tutti i progetti che una persona ha fatto, quelli che sta facendo e quelli che deve fare, la pagina è "/projectlist/index"|
+
+|*Test Case*|*TC-05*|
+|-----------|-------|
+|Nome|Creazione progetto|
+|Riferimento|Req-07|
+|Descrizione|Si può creare un nuovo progetto, così poi ci si puoi lavorare|
+|Prerequisiti|…|
+|Procedura|Nella pagina di "/projectlist/index" c'è il bottone "Crea progetto" dove una volta inserito i dati neccesari con il pulsante "Crea" si crea il nuovo progetto|
+|Risultati attesi|Una volta fatto "Crea" nella lista dei progetti dovrebbe apparire il nuovo progetto con i dati che si sono definiti alla creazione|
+
+|*Test Case*|*TC-06*|
+|-----------|-------|
+|Nome|Evuluzione di una bozza|
+|Riferimento|Req-10|
+|Descrizione|Dato che un progetto può essere una bozza (il progetto che è una bozza può solo butare giù delle idee) o un progetto finale (nel progetto finale è possibile inserire più dati: data_inizio, data_fine, team, …), una volta che si è scelto una bozza si può fare un upgrade del progetto e renderlo finale così da definire un team e le date di inizio e fine.|
+|Prerequisiti|…|
+|Procedura|All'interno della pagina del singolo progetto (in caso questo sia una bozza) c'è un bottone "Upgrade", per far diventare una bozza in finale bisogna cliccare il bottone|
+|Risultati attesi|Il risultato deve essere un progetto finale dove è possibile inserire data inizio, fine e inserire il team di lavoro|
+
+|*Test Case*|*TC-07*|
+|-----------|-------|
+|Nome|Progetto publicco o privato|
+|Riferimento|Req-11|
+|Descrizione|Un progetto può essere pubblico (visibile a tutte le persone) o privato (visibile alle persone che fan parte del team di progetto), e si deve poter scegliere se il progetto sia uno o l'altro|
+|Prerequisiti|…|
+|Procedura|Alla creazione di un progetto si può definire se il progetto è pubblico o privato (in caso che questo solo se il progetto è finale). Invece in caso che è una bozza all'upgrade del progetto si può definire se il progetto diventerà pubblico o finale|
+|Risultati attesi||
+
+|*Test Case*|*TC-08*|
+|-----------|-------|
+|Nome|Creazione attività|
+|Riferimento|Req-13|
+|Descrizione|In un progetto si può creare un attività che un persona del team dovrà svolgere per il compimento del progetto|
+|Prerequisiti|…|
+|Procedura|Nella pagina di progetto sotto a ogni sezoine c'è un bottone "Crea attività" dove una volta cliccato è possibile definire una attività che verà collocata nella sezione in cui si è cliccato il bottone|
+|Risultati attesi|Una volta creato l'attività si dovrebbe vedre la stessa attività nella sezione selezionata|
+
+|*Test Case*|*TC-09*|
+|-----------|-------|
+|Nome|Creazione di sezione|
+|Riferimento|Req-17|
+|Descrizione|Ci sono le sezione di default (per chi vuole), ma in caso che serve aggiungere più sezioni un utente può farlo, così da poter mettere le attività di propria creazione|
+|Prerequisiti|…|
+|Procedura|Nella pagina di progetto dopo le sezione c'è un bottone che permette di creare una nuova sezione definità da nome|
+|Risultati attesi|Una volta inserita una nuova sezione dovrebbe vedersi aparrire questa nella pagine di progetto e si potrebbe aggiungere un'attività in questa sezione|
+
+|*Test Case*|*TC-10*|
+|-----------|-------|
+|Nome|Spostamento attività|
+|Riferimento|Req-16|
+|Descrizione|Si può fare in modo di spostare una attività da una sezione ad un'altra|
+|Prerequisiti|…|
+|Procedura|Nella pagina di rpogetto si vedono tutte le attività basta cliccare l'attivatà e usciranno tutte le sue informazioni e basterà cambiare il riferimento della sezione|
+|Risultati attesi|Si dovrà vedere l'attività nella nuova sezione e non in quella vecchia (da dove si è spostato)|
+
+|*Test Case*|*TC-11*|
+|-----------|-------|
+|Nome|Email corretti|
+|Riferimento|Req-19|
+|Descrizione|Dato che il progetto è scolastico, è possibile collegarsi solo con account della scuola ovvero per gli allievi "@samtrevano.ch" mentre per i professori "@edu.ti.ch"|
+|Prerequisiti|…|
+|Procedura|Nel signup quando si inserisce un nuvo utento viene effettuato il controllo della mail in caso la mail non è ne di un alievo e neanche di professore allora non viene inserito nel database, mentre se la mail è valida questa viene inserito nel database|
+|Risultati attesi|In caso la mail non è valida esce un errore, invece in caso che la mail è valida esce la scritta "Success"|
+
+<!--
 |Test Case      | TC-00                               |
 |---------------|--------------------------------------|
 |**Nome**       | |
@@ -341,6 +440,7 @@ Per eventuali dettagli si possono inserire riferimenti ai diari.
 |**Prerequisiti**| |
 |**Procedura**     |  |
 |**Risultati attesi** | |
+-->
 
 <!--
 Definire in modo accurato tutti i test che devono essere realizzati per

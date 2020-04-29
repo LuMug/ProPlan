@@ -250,7 +250,7 @@ dati* (DFD).
 <!--Descrizione delle strutture di dati utilizzate dal programma in base
 agli attributi e le relazioni degli oggetti in uso.-->
 
-### Schema E-R, schema logico e descrizione.
+#### Schema E-R, schema logico e descrizione.
 
 ![Schema E/R](../Progettazione/diagrammaERProPlan.svg)
 
@@ -291,6 +291,13 @@ Questi documenti permetteranno di rappresentare i dettagli procedurali
 per la realizzazione del prodotto.-->
 
 ## Implementazione
+
+### Use cases
+Questa parte della progettazione è risultata affidabile e ha fornito un'utile guida per darci un idea su cosa fare. È stato rispettato, ma abbiamo dovuto tralasciare la parte di reset della password dell'account per mancanza di tempo per studiare, valutare e implementare le risorse necessarie (creare e configurare un mail server, o trovare un servizio che invii mail utilizzabile da uno script, definire tutta la parte di gestione dello scambio di dati sensibili,...).
+
+### UML
+Durante l'implementazione, ci siamo resi conto che non tutti i nostri progetti avrebbero potuto essere applicati. Per esempio, il diagramma UML non ha potuto funzionare con il metodo basato più che altro su controller e view, nel quale i model vengono solo "istanziati" all'inizio e non più trattati direttamente poichè i dati (in questo caso quelli del database) sono utilizzabili da ogni controller senza ulteriori riferimenti.
+
 
 <!--
 In questo capitolo dovrà essere mostrato come è stato realizzato il

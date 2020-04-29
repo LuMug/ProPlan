@@ -224,9 +224,8 @@ nell’implementazione del prodotto.
 -->
 
 ### Design dell’architettura del sistema
-**\*da controllare**
 ![Schema use cases](../Progettazione/ProPlan_useCases.svg)
-La base della nostra progettazione è questo diagramma, che rappresenta in stile use case le interazioni possibili e gli indirizzamenti conseguenti dell'applcaizone. Non è propriamente uno schema dei casi d'uso, poichè ne abbiamo definito regole riconosciute solo all'interno del team di lavoro e visibili nella legenda allegata al diagramma.
+La base della nostra progettazione è questo diagramma, che rappresenta in stile use case le interazioni possibili e gli indirizzamenti conseguenti dell'applicazione. Non è propriamente uno schema dei casi d'uso, poichè ne abbiamo definito regole riconosciute solo all'interno del team di lavoro e visibili nella legenda allegata al diagramma.
 
 Il suo scopo è rappresentare in forma schematica le schermate e pulsanti disponibili, ma senza scendere nei dettagli della parte visiva.
 

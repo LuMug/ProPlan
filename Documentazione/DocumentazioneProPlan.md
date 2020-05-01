@@ -83,6 +83,7 @@ Esempio di abstract:
 Il progetto ci è stato assegnato dalla scuola ed è quindi un progetto didattico, ma potrà poi risultare utile anche a coloro che necessiteranno di gestire un progetto di gruppo nei prossimi anni.
 L'obbettivo è quello di creare uno strumento simile ad alcuni già esistenti, ma con funzionalità meno dispersive in modo da risultare più semplice per gli utilizzatori. Le soluzioni attuali presentano infatti diversi elementi superflui per il target di ProPlan, di cui anche gli sviluppatori hanno fanno parte, ed è quindi sull'analisi dei bisogni e degli elementi di disturbo che la piattaforma è sviluppata.
 L'applicativo sarà reso disponibile tramite pagina web, quindi raggiungibile da ovunque tramite l'apposito dominio.
+Quello che si vuole raggiungere è una via di mezzo tra applicativi come Trello e Microsoft Project, integrando le funzionalità principali di entrambi ma tralasciando quelle meno utilizzate.
 
 <!--
 Lo scopo del progetto (scopi didattici/scopi operativi). Dovrebbe
@@ -224,16 +225,37 @@ nell’implementazione del prodotto.
 -->
 
 ### Design dell’architettura del sistema
+
+#### Struttura delle cartelle
+Per avere in chiaro dove lavorare e per trovare un accordo sulla struttura dei link, abbiamo definito la [struttura delle cartelle](../Progettazione/strutturaCartelle.md) da usare per il sito.
+
+#### Base del funzionamento
+Il pattern utilizzato da web2py è un MVC (Model, View, Controller) piuttosto standard.
+
+##### Models
+Qui va definita la struttura del database, basata su SQLite. A differenza dei comuni MVC in, ad esempio, PHP, i models contengono codice eseguito all'avvio dell'applicazione, ma non metodi richiamabile svolgono quindi una funzione meno attiva per la programmazione.
+
+Non prevediamo altri scambi di dati.
+
+##### Controllers
+I controller sono il punto principale di gestione delle funzionalità dell'applicativo. Comunicano con i models e preparano le views, prendendo, gestendo e trasferendo i dati tra schemi di database e views. Ogni metodo corrisponde al nome di una view, e i valori di ritorno saranno poi utilizzabili da queste.
+
+##### Views
+Questi file contengono principalmente codice HTML, oltre che CSS e JavaScript per lo stile. Sono arricchite però da wildcards definite da web2py e usabili con la normale sintassi di python che fanno da "placeholders" per variabili prese dai controller.
+
+Come per ogni tipico MVC, ogni view è contenuta in una cartella che corrisponde al nome di un controller.
+
+#### Use case
 ![Schema use cases](../Progettazione/ProPlan_useCases.svg)
-La base della nostra progettazione è questo diagramma, che rappresenta in stile use case le interazioni possibili e gli indirizzamenti conseguenti dell'applicazione. Non è propriamente uno schema dei casi d'uso, poichè ne abbiamo definito regole riconosciute solo all'interno del team di lavoro e visibili nella legenda allegata al diagramma.
+La base della nostra progettazione è questo diagramma, che rappresenta in stile use case le interazioni possibili e gli indirizzamenti conseguenti dell'applicazione. Non è propriamente uno schema dei casi d'uso, poichè abbiamo definito regole riconosciute solo all'interno del team di lavoro e visibili nella legenda allegata al diagramma.
 
 Il suo scopo è rappresentare in forma schematica le schermate e pulsanti disponibili, ma senza scendere nei dettagli della parte visiva.
 
-#### Struttura delle cartelle
-Per avere in chiaro dove lavorare e per trovare un accordo sulla struttura dei link, abbiamo definito la [struttura delle cartelle](../Progettazione/strutturaCartelle.md) che avrebbero dovuto essere usate per il sito.
+La prima pagina che appare navigando all'indirizzo del progetto è una schermata di login. Tutti gli altri eventuali argomenti aggiungi dopo l'URL del progetto riportano comunque al login e vengono eliminati dalla barra degli indirizzi. Da qui è possibile accedere al sito se si dispone già di un account, oppure si può passare alla schermata di sing up per registrarsi.
+Una volta eseguito l'accesso, una pagina "home" permetterà di vedere solo alcuni tra i progetti già esistenti, sia personali che pubblici, con anche la possibilità di accedervi se si fa parte del progetto. È anche possibile visualizzare una lista completa in un altra pagina. In entrambe sarà possibile creare un nuovo progetto. Per farlo, un pop up contenente un form permetterà di deciderne alcuni parametri.
+Alla creazione o all'accesso ad un progetto, la pagina principale mostrerà una lista orizzontale delle attività presenti, divise per categoria. Qui, le azioni disponibili sono visualizzare, modificare e creare le attività, gestire i membri del progetto o passare alla visualizzazione gantt grazie alla quale si potrà avere una visione più immediata del lavoro. Oltre a questo, sarà anche possibile, grazie ad un form che utilizza ajax, gestire le attività senza il bisogno di aggiornare la pagina: sia i campi di input che il grafico vero e proprio saranno subito aggiornati.
 
-Alla creazione di un progetto si possono creare le attività del progetto e si possono definire i permessi di altri utenti, nominando magari un cocapo progetto oppure un semplice membro del progetto.
-Si possono creare anche delle bozze di progetti, ovvero non dei veri e propri progetti, ma delle idee per il progetto vero e proprio.
+
 
 <!--
 Descrive:

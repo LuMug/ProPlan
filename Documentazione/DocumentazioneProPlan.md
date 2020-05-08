@@ -224,7 +224,7 @@ In seguito potete vedere le pagine da noi sviluppate riguardo i progetti globali
 - Differenza #3: Avevamo deciso di mettere uno o due pulsanti (a dipendenza del tipo di privacy) che avevano il ruolo di permettere di modificare un progetto o anche solo poterlo vedere, senza poter modificare. Però anche questo particolare è stato implementano a metà circa, perchè esiste un solo un pulsante che permette di entrare e modificare il progetto (ovviamente solo a chi ha il permesso di farlo).
 
 ## Logica del sito / design procedurale *nome temporaneo*
-La logica del funzionamento del sito non è stata sviluppata al 100% come era stato progettato, ma buona parte della progettazione è stata implementata com'era programmato. Tutta la logica di autenticazione utente era già presente grazie a web2py, ma questo non ha fatto differenza dalla nostra progettazione. ...
+La logica del funzionamento del sito non è stata sviluppata al 100% come era stato progettato, ma buona parte della progettazione è stata implementata com'era programmato. Tutta la logica di autenticazione utente era già presente grazie a web2py, ma questo non ha fatto differenza dalla nostra progettazione. Come avevamo programmato, abbiamo implementato un centro di controllo, ovvero una dashboard, dove è possibile vedere tutto in una volta le pagine presenti nel nostro sito e poter vedere alcuni progetti già esistenti. Nelle pagine di progetti globali e personali, si ha la possibilità di creare un progetto, e alla creazione di un progetto si può specificare il nome del progetto in questione, fornire una descrizione del progetto e definire se il progetto è una bozza o un progetto finale. È presene una pagina per le FAQ, dove si possono trovare le risposte alle domande più quotate.
 
 ## Use cases
 Questa parte della progettazione è risultata affidabile e ha fornito un'utile guida per darci un idea su cosa fare. È stato rispettato, ma abbiamo dovuto tralasciare la parte di reset della password dell'account per mancanza di tempo per studiare, valutare e implementare le risorse necessarie (creare e configurare un mail server, o trovare un servizio che invii mail utilizzabile da uno script, definire tutta la parte di gestione dello scambio di dati sensibili,...).
@@ -458,3 +458,8 @@ Come accedere al sito:
 
  - Opzione 1: Utilizzare il link che si trova nel capitolo della sitografia ([Clicca qui](#sitografia)), e in seguito registrarsi presso il sito utilizzando una mail consona alle credenziali (@samtrevano.ch o @edu.ti.ch). Una volta che si ha eseguito la registrazione, si può fare il login ed usufruire al nostro servizio.
  - Opzione 2: Nella nostra home di progetto nel github (https://github.com/LuMug/ProPlan), si può trovare il pacchetto del codice sorgente. Dopo aver scaricato il nostro pacchetto, scaricate web2py e python, e potrete poi accedere al nostro da locale.
+ 
+        - Documentazione di web2py "http://web2py.com/book"
+        - Documentazione di python anywhere "https://help.pythonanywhere.com/pages/"
+        - Documentazione di ...
+

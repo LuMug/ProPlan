@@ -512,7 +512,7 @@ progetto.
 -->
 ## Consuntivo
 Gantt consuntivo:
-![Gantt consuntivo](../Pianificazione/ganttconsuntivo.png)
+![Gantt consuntivo](../Pianificazione/ProPlan_GanttConsuntivo.png)
 
 La pianificazione è rimasta abbastanza fedele all'originale. Gli unici cambiamenti sono avvenuti a causa di un cambio di strategia (quasi in contemporanea al completamento del gantt, abbiamo optato per un'applicazione web al posto di una offline con anche un server dedicato dietro, quindi un'intera attività principale è stata tolta) e, anche se non ha cambiato il programma ma l'ha solo accorciato, l'anticipazione della consegna di 2 settimane.
 

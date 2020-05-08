@@ -15,6 +15,9 @@
 | 15:00 - 15:30 | Fatto l'eliminazione delle attività |
 | 15:30 - 16:30 | Corretto un problema riscontrato con le attività |
 | 16:00 - 16:30 | Fatto il diario |
+| 16:30 - 17:00 | Aggiunta la privacy dei progetti |
+| 17:00 - 17:30 | Aggiunta la funziona di "delete" di un progetto |
+| 17:30 - 18:00 | Aggiunta la possibilità di aggiungere dei membri in un progetto |
 
 
 ##  Problemi riscontrati e soluzioni adottate

@@ -390,6 +390,9 @@ Lo stile del sito, in alcune determinate situazioni, non è ottimale e andrebbe 
 ### Differenti utenti
 I permessi dei vari utenti sono sempre gli stessi, poichè manca la parte logica di gestione delle azioni disponibili, che sarebbe necessaria nonostante la nostra "politica" di semplicità generale
 
+### Caricamento lento
+Purtroppo nella versione online del nostro sito, siccome utilizziamo python anywhere come supporto, il caricamento delle varie pagine è alquanto lento.
+
 <br>
 
 # Consuntivo
@@ -420,8 +423,10 @@ Attualmente l'aggiunta delle attività si differenzia tra gantt e visualizzazion
 ### Conversione JSON-gantt
 È possibile, in python, leggere e scrivere file .mpp (microsoft project). Attualmente, il gantt è in json e salvabile al massimo come CSV grazie ad Highcharts, ma sarebbe interessante poterlo eventualmente scaricare (o anche caricare) nel formato più comune per questi tipi di grafici cioè, appunto, .mpp.
 
+### Conversione linguaggio di programmazione per database
+In futuro, sarebbe più conveniente utilizzare il linguaggio MySql per la creazione e gestione del database anzichè SQLite (ovvero quello che stiamo usando attualmente).
+
 <!--Migliorie o estensioni che possono essere sviluppate sul prodotto.
--->
 ## Considerazioni personali
 -   Jure: "Lavorare in gruppo è stato più complicato del previsto, però alla fine mi sono adattato e ho provato ad essere più efficace per poter lavorare in sincronia con il gruppo. È stato un progetto anch'esso più difficile del previsto, ma è stato un progetto interessante da implementare. ...altro"
 -   Filippo:

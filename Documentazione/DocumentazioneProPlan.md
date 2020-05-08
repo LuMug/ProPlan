@@ -428,7 +428,7 @@ In futuro, sarebbe più conveniente utilizzare il linguaggio MySql per la creazi
 
 
 ## Considerazioni personali
--   Jure: "Lavorare in gruppo è stato più complicato del previsto, però alla fine mi sono adattato e ho provato ad essere più efficace per poter lavorare in sincronia con il gruppo. È stato un progetto anch'esso più difficile del previsto, ma è stato un progetto interessante da implementare. ...altro"
+-   Jure: "Lavorare in gruppo è stato più complicato del previsto, però alla fine mi sono adattato e ho provato ad essere più efficace per poter lavorare in sincronia con il gruppo. È stato un progetto anch'esso più difficile del previsto, ma è stato un progetto interessante da implementare."
 -   Filippo:
 -   Kushtrim:
 -   Jonathan:
@@ -462,6 +462,7 @@ In futuro, sarebbe più conveniente utilizzare il linguaggio MySql per la creazi
 Come accedere al sito:
 
 Opzione 1: Utilizzare il link che si trova nel capitolo della sitografia ([Clicca qui](#sitografia)), e in seguito registrarsi presso il sito utilizzando una mail consona alle credenziali (@samtrevano.ch o @edu.ti.ch). Una volta che si ha eseguito la registrazione, si può fare il login ed usufruire al nostro servizio.
+
 Opzione 2: Nella nostra home di progetto nel github (https://github.com/LuMug/ProPlan), si può trovare il pacchetto del codice sorgente. Dopo aver scaricato il nostro pacchetto, scaricate web2py e python, e potrete poi accedere al nostro da locale.
  
  - Documentazione di [web2py](http://web2py.com/book)

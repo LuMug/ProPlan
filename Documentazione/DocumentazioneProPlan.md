@@ -366,10 +366,14 @@ I design delle interfacce che avevamo progettato, sono molto differenti da come 
 Per le pagine dei progetti globali e i progetti personali invece è tutto diverso, non è minimamente simile alla progettazione. Questo è causato dalle difficoltà riscontrate durante lo sviluppo e dalla nostra mancanza di conoscenza riguardo la struttura di web2py.
 
 In seguito potete vedere le pagine da noi sviluppate riguardo i progetti globali e quelli personali
-*immagine progetti globali*
-*immagine progetti personali*
+![Progetti Globali](../Progettazione/progettiGlobali.png)
+![Progetti Personali](../Progettazione/progettiPersonali.png)
 
-Differenze: ...
+*NOTA: le due pagine per i progetti globali e per i progetti personali, sono state progettate in modo uguale o molto simili*
+
+- Differenza #1: Lo stile dei vari progetti che vengono mostrati in schermata, ovvero, avevamo progettato di fare ogni progetto che si estendesse su tutto il piano orizzontale e che contenesse il nome del progetto, il nome dell'autore del progetto, lo stato del progetto e la privacy (pubblico o privato). Invece l'abbiamo implementato in un modo diverso, i progetti non si estendono sul piano orizzontale, ma sono come delle carte (a forma rettangolare) e mostra solo il nome del progetto con una piccola descrizione.
+- Differenza #2: Era stato pianificato di rendere utilizzabile un sistema di ricerca dei progetti, cosicchè nel caso ci fossero molti progetti, la ricerca di un progetto sia più facile e agevole. Questa funzione però non è stata implementata.
+- Differenza #3: Avevamo deciso di mettere uno o due pulsanti (a dipendenza del tipo di privacy) che avevano il ruolo di permettere di modificare un progetto o anche solo poterlo vedere, senza poter modificare. Però anche questo particolare è stato implementano a metà circa, perchè esiste un solo un pulsante che permette di entrare e modificare il progetto (ovviamente solo a chi ha il permesso di farlo).
 
 ## Logica del sito / design procedurale *nome temporaneo*
 La logica del funzionamento del sito non è stata sviluppata al 100% come era stato progettato, ma buona parte della progettazione è stata implementata com'era programmato. Tutta la logica di autenticazione utente era già presente grazie a web2py, ma questo non ha fatto differenza dalla nostra progettazione. ...

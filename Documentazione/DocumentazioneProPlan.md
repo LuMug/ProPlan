@@ -611,7 +611,7 @@ Attualmente l'aggiunta delle attività si differenzia tra gantt e visualizzazion
 <!--Migliorie o estensioni che possono essere sviluppate sul prodotto.
 -->
 ## Considerazioni personali
--   Jure: "Lavorare in gruppo è stato più complicato del previsto, però alla fine mi sono adattato e ho provato ad essere più efficacie per poter lavorare in sincronia con il gruppo. È stato un progetto anch'esso più difficile del previsto, ma è stato un progetto interessante da implementare. ...altro"
+-   Jure: "Lavorare in gruppo è stato più complicato del previsto, però alla fine mi sono adattato e ho provato ad essere più efficace per poter lavorare in sincronia con il gruppo. È stato un progetto anch'esso più difficile del previsto, ma è stato un progetto interessante da implementare. ...altro"
 -   Filippo:
 -   Kushtrim:
 -   Jonathan:

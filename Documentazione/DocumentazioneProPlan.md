@@ -1,30 +1,33 @@
+# Sommario
 1. [Introduzione](#introduzione)
-  - [Informazioni sul progetto](#informazioni-sul-progetto)
-  - [Abstract](#abstract)
-  - [Scopo](#scopo)
+    - [Informazioni sul progetto](#informazioni-sul-progetto)
+    - [Abstract](#abstract)
+    - [Scopo](#scopo)
 1. [Analisi](#analisi)
-  - [Analisi del dominio](#analisi-del-dominio)
-  - [Analisi dei mezzi](#analisi-dei-mezzi)
-  - [Analisi e specifica dei requisiti](#analisi-e-specifica-dei-requisiti)
-  - [Use case](#use-case)
-  - [Pianificazione](#pianificazione)
+    - [Analisi del dominio](#analisi-del-dominio)
+    - [Analisi dei mezzi](#analisi-dei-mezzi)
+    - [Analisi e specifica dei requisiti](#analisi-e-specifica-dei-requisiti)
+    - [Use case](#use-case)
+    - [Pianificazione](#pianificazione)
 1. [Progettazione](#progettazione)
-  - [Design dell’architettura del sistema](#design-dell’architettura-del-sistema)
-  - [Design dei dati e database](#design-dei-dati-e-database)
+    - [Design dell’architettura del sistema](#design-dell’architettura-del-sistema)
+    - [Design dei dati e database](#design-dei-dati-e-database)
 1. [Implementazione](#implementazione)
 1. [Test](#test)
-  - [Protocollo di test](#protocollo-di-test)
-  - [Risultati test](#risultati-test)
-  - [Mancanze/limitazioni conosciute](#mancanze/limitazioni-conosciute)
+    - [Protocollo di test](#protocollo-di-test)
+    - [Risultati test](#risultati-test)
+    - [Mancanze/limitazioni conosciute](#mancanze/limitazioni-conosciute)
 1. [Consuntivo](#consuntivo)
 1. [Conclusioni](#conclusioni)
-  - [Sviluppi futuri](#sviluppi-futuri)
-  - [Considerazioni personali](#considerazioni-personali)
+    - [Sviluppi futuri](#sviluppi-futuri)
+    - [Considerazioni personali](#considerazioni-personali)
 1. [Sitografia](#sitografia)
 1. [Allegati](#allegati)
 
-## Introduzione
-### Informazioni sul progetto
+<br>
+
+# Introduzione
+## Informazioni sul progetto
 **Nome: ProPlan**
 - Allievi: Kushtrim Rushi, Filippo Zinetti, Jure Grgic, Jonathan Müller
 - Docente responsabile al controllo del lavoro: Luca Muggiasca
@@ -34,7 +37,11 @@
 - Sezione scolastica: 3° anno d'informatica
 - Materia: modulo 306 (Realizzare un progetto IT)
 
-### Abstract
+
+<div class="page-break"></div>
+
+
+## Abstract
 Migliaia sono i progetti che ogni giorno vengono avviati. Hanno diverse dimensioni, diversi scopi e finscono in diversi modi, ma quello che hanno in comune è una delle fasi cruciali, che deve essere svolta all'inizio indipendentemente da tutto: la progettazione.
 Questa comprende una scomposizione del lavoro in fasi più piccole e più gestibili da singole persone o team, che devono poi collaborare al meglio per raggiungere un obbiettivo comune. Questo non dovrebbe essere un problema, poichè esistono molte soluzioni per gestire team di persone... quello che manca a questi è **semplicità** e **immediatezza** nel loro utilizzo.
 È per questo che abbiamo sviluppato ProPlan, uno strumento che permette di creare e gestire piccoli progetti in modo immediato e senza quindi perdersi in impostazioni e funzionalità superflue.
@@ -79,19 +86,23 @@ Esempio di abstract:
 > design such a large-scale microprocessor in just weeks.*
 -->
 
-### Scopo
+<br>
+
+## Scopo
 Il progetto ci è stato assegnato dalla scuola ed è quindi un progetto didattico, ma potrà poi risultare utile anche a coloro che necessiteranno di gestire un progetto di gruppo nei prossimi anni.
 L'obbettivo è quello di creare uno strumento simile ad alcuni già esistenti, ma con funzionalità meno dispersive in modo da risultare più semplice per gli utilizzatori. Le soluzioni attuali presentano infatti diversi elementi superflui per il target di ProPlan, di cui anche gli sviluppatori hanno fanno parte, ed è quindi sull'analisi dei bisogni e degli elementi di disturbo che la piattaforma è sviluppata.
 L'applicativo sarà reso disponibile tramite pagina web, quindi raggiungibile da ovunque tramite l'apposito dominio.
 Quello che si vuole raggiungere è una via di mezzo tra applicativi come Trello e Microsoft Project, integrando le funzionalità principali di entrambi ma tralasciando quelle meno utilizzate.
+
+<br>
 
 <!--
 Lo scopo del progetto (scopi didattici/scopi operativi). Dovrebbe
 descrivere il mandato, ma non vanno ricopiate le informazioni del
 quaderno dei compiti (che va invece allegato).
 -->
-## Analisi
-### Analisi del dominio
+# Analisi
+## Analisi del dominio
 ProPlan è progettato per l'uso nell'ambiente scolastico della SAMT, andando a sostituire altri programmi (es: trello, eventualmente Microsoft Project e Project Libre). Il software dovrà risiedere da qualche parte nella rete della scuola o quantomeno accessibile da questa, e dovrà quindi far fronte al proxy che blocca parte delle comunicazioni. Lo sviluppo avverrà su una piattaforma apposita di hosting online [pyhtonanywhere](https://www.pythonanywhere.com/).
 Gli utilizzatori saranno allievi ed eventualmente docenti mandanti della SAMT (scuola arti e mestieri di Trevano), che necessitano rispettivamente di imparare e di valutare la gestione dei progetti.
 La conoscenza richiesta, oltre al saper utilizzare un computer per interagire con la pagina vera e propria, è quella di una base delle modalità di gestione di un progetto per poter amministrare l'incarico e un minimo di propensione nel lavoro in team.
@@ -112,7 +123,7 @@ quali ad esempio:
 -   Che conoscenze teoriche bisogna avere/acquisire per poter operare
     efficacemente nel dominio?
     -->
-### Analisi e specifica dei requisiti
+## Analisi e specifica dei requisiti
 
 <!--
 |**ID**            |Req-1                                                                          |
@@ -181,28 +192,32 @@ vecchie dovranno essere inserite nei diari.
 requisiti.
 -->
 
-### Use case
+<br>
 
-### Pianificazione
+## Use case
+
+## Pianificazione
 Gantt preventivo:
 ![Gant preventivo](../Pianificazione/ProPlan_GanttPreventivo.PNG)
 Il lavoro durerà 5 mesi, da gennaio a maggio. Abbiamo pianificato un mese di studio (fino a inizio febbraio), due settimane di design, circa 3 mesi di implementazione e infine due settimane di test e rifinimenti vari. Inoltre, per un mese dall'inizio del progetto dovremo inoltre dedicare parte del tempo ad imparare gli strumenti da utilizzare.
 
-### Analisi dei mezzi
+<br>
 
-#### Linguaggio
+## Analisi dei mezzi
+
+### Linguaggio
 L'applicativo si basa su python, un linguaggio di alto livello disponibile su ogni piattaforma e che si distingue per la sua sintassi severa rispetto all'indentazione, a favore di una scrittura spesso più breve.
 
-#### Framework
+### Framework
 Per lo sviluppo è stato utilizzato Web2py, un framework leggero e pensato per creare piccole applicazioni web. Inoltre, integra SQLite, le librerie necessarie per interagirci ed eventualmente la possiblità di espandere il database (passando, per esempio, ad Oracle o mySQL) senza problemi grazie all'alto livello di astrazione.
 
-#### Hosting
+### Hosting
 L'ambiente di sviluppo sarà la piattaforma di hosting pythonanywhere, quindi l'hardware è rappresentato da computer portatili che integreranno il server grazie a web2py e dei client simulati tramite browser.
 La piattaforma di funzionamento è vincolata non a sistemi operativi specifici, quanto più ai browser che andranno a visitare le pagine del sito, i quali dovranno essere abbastanza recenti ed aggiornati da supportare le funzioni del software.
 
-#### Altre librerie
+### Altre librerie
 
-##### Highcharts - Libreria javascript
+#### Highcharts - Libreria javascript
 Per realzzare i diagrammi di gantt abbiamo utilizzato la libreria messa a disposizione da [Highcharts](https://www.highcharts.com/): questa libreria permette la creazione di diversi tipi di grafici convertendoli da codice JSON.
 
 <!--
@@ -216,7 +231,9 @@ particolare è coinvolto nel progetto? Che particolarità e limitazioni
 presenta? Che hw sarà disponibile durante lo sviluppo?
 -->
 
-## Progettazione
+<br>
+
+# Progettazione
 <!--
 Questo capitolo descrive esaustivamente come deve essere realizzato il
 prodotto fin nei suoi dettagli. Una buona progettazione permette
@@ -224,28 +241,28 @@ all’esecutore di evitare fraintendimenti e imprecisioni
 nell’implementazione del prodotto.
 -->
 
-### Design dell’architettura del sistema
+## Design dell’architettura del sistema
 
-#### Struttura delle cartelle
+### Struttura delle cartelle
 Per avere in chiaro dove lavorare e per trovare un accordo sulla struttura dei link, abbiamo definito la [struttura delle cartelle](../Progettazione/strutturaCartelle.md) da usare per il sito.
 
-#### Base del funzionamento
+### Base del funzionamento
 Il pattern utilizzato da web2py è un MVC (Model, View, Controller) piuttosto standard.
 
-##### Models
+#### Models
 Qui va definita la struttura del database, basata su SQLite. A differenza dei comuni MVC in, ad esempio, PHP, i models contengono codice eseguito all'avvio dell'applicazione, ma non metodi richiamabile svolgono quindi una funzione meno attiva per la programmazione.
 
 Non prevediamo altri scambi di dati.
 
-##### Controllers
+#### Controllers
 I controller sono il punto principale di gestione delle funzionalità dell'applicativo. Comunicano con i models e preparano le views, prendendo, gestendo e trasferendo i dati tra schemi di database e views. Ogni metodo corrisponde al nome di una view, e i valori di ritorno saranno poi utilizzabili da queste.
 
-##### Views
+#### Views
 Questi file contengono principalmente codice HTML, oltre che CSS e JavaScript per lo stile. Sono arricchite però da wildcards definite da web2py e usabili con la normale sintassi di python che fanno da "placeholders" per variabili prese dai controller.
 
 Come per ogni tipico MVC, ogni view è contenuta in una cartella che corrisponde al nome di un controller.
 
-#### Use case
+### Use case
 ![Schema use cases](../Progettazione/ProPlan_useCases.svg)
 La base della nostra progettazione è questo diagramma, che rappresenta in stile use case le interazioni possibili e gli indirizzamenti conseguenti dell'applicazione. Non è propriamente uno schema dei casi d'uso, poichè abbiamo definito regole riconosciute solo all'interno del team di lavoro e visibili nella legenda allegata al diagramma.
 
@@ -267,11 +284,11 @@ dati* (DFD).
 - Eventuale sitemap
 -->
 
-### Design dei dati e database
+## Design dei dati e database
 <!--Descrizione delle strutture di dati utilizzate dal programma in base
 agli attributi e le relazioni degli oggetti in uso.-->
 
-#### Schema E-R, schema logico e descrizione.
+### Schema E-R, schema logico e descrizione.
 
 ![Schema E/R](../Progettazione/diagrammaERProPlan.svg)
 
@@ -280,9 +297,9 @@ Se il diagramma E-R viene modificato, sulla doc dovrà apparire l’ultima
 versione, mentre le vecchie saranno sui diari.
 -->
 
-### Design delle interfacce
+## Design delle interfacce
 
-#### Progetti iniziali
+### Progetti iniziali
 Abbiamo cominciato disegnando alcune schermate in modo da renderci conto di quali elementi avremmo avuto bisogno. Non sono state scelte di comune accordo, quindi risultano diverse dal risultato finale.
 ![Popup creazione progetto](../Progettazione/popup_creazione_progetto.png)
 ![Progetti personali](../Progettazione/schermata_progetti_personali.png)
@@ -296,7 +313,7 @@ dell’interfaccia utente. La progettazione delle interfacce è basata
 sulle informazioni ricavate durante la fase di analisi e realizzata
 tramite mockups.-->
 
-### Design procedurale
+## Design procedurale
 ![Diagramma UML](../Progettazione/UMLDiagramm.svg)
 Il diagramma UML spiega in modo più dettagliato la logica descrivendo i nomi dei metodi e il loro livello nella struttura MVC (model, view, contorller)
 
@@ -311,12 +328,14 @@ ad esempio:
 Questi documenti permetteranno di rappresentare i dettagli procedurali
 per la realizzazione del prodotto.-->
 
-## Implementazione
+<br>
 
-### Use cases
+# Implementazione
+
+## Use cases
 Questa parte della progettazione è risultata affidabile e ha fornito un'utile guida per darci un idea su cosa fare. È stato rispettato, ma abbiamo dovuto tralasciare la parte di reset della password dell'account per mancanza di tempo per studiare, valutare e implementare le risorse necessarie (creare e configurare un mail server, o trovare un servizio che invii mail utilizzabile da uno script, definire tutta la parte di gestione dello scambio di dati sensibili,...).
 
-### UML
+## UML
 Durante l'implementazione, ci siamo resi conto che non tutti i nostri progetti avrebbero potuto essere applicati. Per esempio, il diagramma UML non ha potuto funzionare con il metodo basato più che altro su controller e view, nel quale i model vengono solo "istanziati" all'inizio e non più trattati direttamente poichè i dati (in questo caso quelli del database) sono utilizzabili da ogni controller senza ulteriori riferimenti.
 
 
@@ -341,9 +360,11 @@ componenti utilizzati. Eventualmente questa va allegata.
 Per eventuali dettagli si possono inserire riferimenti ai diari.
 -->
 
-## Test
+<br>
 
-### Protocollo di test
+# Test
+
+## Protocollo di test
 
 |*Test Case*|*TC-01*|
 |-----------|-------|
@@ -481,7 +502,7 @@ ripetibile alle stesse condizioni.
 |**Risultati attesi** |Keys visible in the DB (OtaCardKey) but not visible in the GUI (Card details) |
 -->
 
-### Risultati test
+## Risultati test
 
 <!--
 Tabella riassuntiva in cui si inseriscono i test riusciti e non del
@@ -490,18 +511,18 @@ dovrà risultare nel documento finale come riuscito (la procedura della
 correzione apparirà nel diario), altrimenti dovrà essere descritto
 l’errore con eventuali ipotesi di correzione.
 -->
-### Mancanze/limitazioni conosciute
+## Mancanze/limitazioni conosciute
 
-#### Autenticazione tramite email
+### Autenticazione tramite email
 Una volta inserita una password valida e una password, l'account è registrato e quella mail non è più utilizzabile da nessun altro: questo può portare a sgradevoli situazioni di account "rubati". Bisognerebbe inviare una mail con un codice di conferma da inserire in un altro form per essere sicuri che chi sta creando l'account è il vero proprietario di quella mail, ma per questo sarebbe necessario creare e configurare un mail server apposito.
 
-#### Password recovery
+### Password recovery
 Non è possibile resettare la password in caso di perdita ma, anche qui, serve un mail server.
 
-#### Stile
+### Stile
 Lo stile del sito, in alcune determinate situazioni, non è ottimale e andrebbe rifinito .
 
-#### Differenti utenti
+### Differenti utenti
 I permessi dei vari utenti sono sempre gli stessi, poichè manca la parte logica di gestione delle azioni disponibili, che sarebbe necessaria nonostante la nostra "politica" di semplicità generale
 
 <!--
@@ -510,13 +531,18 @@ completamente implementati, al di fuori dei test case. Non devono essere
 riportati gli errori e i problemi riscontrati e poi risolti durante il
 progetto.
 -->
-## Consuntivo
+
+<br>
+
+# Consuntivo
 Gantt consuntivo:
 ![Gantt consuntivo](../Pianificazione/ProPlan_GanttConsuntivo.png)
 
 La pianificazione è rimasta abbastanza fedele all'originale. Gli unici cambiamenti sono avvenuti a causa di un cambio di strategia (quasi in contemporanea al completamento del gantt, abbiamo optato per un'applicazione web al posto di una offline con anche un server dedicato dietro, quindi un'intera attività principale è stata tolta) e, anche se non ha cambiato il programma ma l'ha solo accorciato, l'anticipazione della consegna di 2 settimane.
 
-## Conclusioni
+<br>
+
+# Conclusioni
 
 <!--
 Quali sono le implicazioni della mia soluzione? Che impatto avrà?
@@ -525,27 +551,29 @@ marginale o è semplicemente servita per scoprire che questo percorso è
 stato una perdita di tempo? I risultati ottenuti sono generali,
 facilmente generalizzabili o sono specifici di un caso particolare? ecc
 -->
-### Sviluppi futuri
+## Sviluppi futuri
 
-#### Supporto multilingua
+### Supporto multilingua
 Web2py include un dizionario per la corrispondenza delle parole nelle varie lingue, quindi bisognerebbe sostituire tutto il testo "hard coded" con queste parole "universali", magari in inglese per chiarezza e coerenza con il resto dell'applicazione.
 
-### Aggiunta attività
+## Aggiunta attività
 Attualmente l'aggiunta delle attività si differenzia tra gantt e visualizzazione normale: nel primo avviene dinamicamente senza aggiornare la pagina, nel secondo no.
 
-#### Conversione JSON-gantt
+### Conversione JSON-gantt
 È possibile, in python, leggere e scrivere file .mpp (microsoft project). Attualmente, il gantt è in json e salvabile al massimo come CSV grazie ad Highcharts, ma sarebbe interessante poterlo eventualmente scaricare (o anche caricare) nel formato più comune per questi tipi di grafici cioè, appunto, .mpp.
 
 <!--Migliorie o estensioni che possono essere sviluppate sul prodotto.
 -->
-### Considerazioni personali
+## Considerazioni personali
 
 <!--
   Cosa ho imparato in questo progetto? ecc
 -->
-## Bibliografia
+<br>
 
-### Bibliografia per articoli di riviste
+# Bibliografia
+
+## Bibliografia per articoli di riviste
 1.  Cognome e nome (o iniziali) dell’autore o degli autori, o nome
     dell’organizzazione,
 
@@ -557,7 +585,7 @@ Attualmente l'aggiunta delle attività si differenzia tra gantt e visualizzazion
 
 5.  Pagina iniziale dell’articolo,
 
-### Bibliografia per libri
+## Bibliografia per libri
 
 
 1.  Cognome e nome (o iniziali) dell’autore o degli autori, o nome
@@ -573,7 +601,7 @@ Attualmente l'aggiunta delle attività si differenzia tra gantt e visualizzazion
 
 6.  ISBN.
 
-### Sitografia
+## Sitografia
 
 1.  URL del sito (se troppo lungo solo dominio, evt completo nel
     diario),
@@ -587,7 +615,7 @@ Attualmente l'aggiunta delle attività si differenzia tra gantt e visualizzazion
 -   http://standards.ieee.org/guides/style/section7.html, *IEEE
     Standards Style Manual*, 07-06-2008.
 
-## Allegati
+# Allegati
 
 Elenco degli allegati, esempio:
 

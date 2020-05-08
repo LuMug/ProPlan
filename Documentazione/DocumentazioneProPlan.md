@@ -285,7 +285,7 @@ Durante l'implementazione, ci siamo resi conto che non tutti i nostri progetti a
 
 |*Test Case*|*TC-06*|
 |-----------|-------|
-|Nome|Evuluzione di una bozza|
+|Nome|Evoluzione di una bozza|
 |Riferimento|Req-10|
 |Descrizione|Dato che un progetto può essere una bozza (nel progetto bozza si possono solo mettere idee) o un progetto finale (nel progetto finale è possibile inserire più dati: data_inizio, data_fine, team, …), una volta che si è scelta una bozza si può fare un upgrade del progetto e renderlo finale così da definire un team e le date di inizio e fine.|
 |Prerequisiti|Si deve avere un progetto di tipo bozza|
@@ -385,13 +385,16 @@ Una volta inserita una password valida e una password, l'account è registrato e
 Non è possibile resettare la password in caso di perdita ma, anche qui, serve un mail server.
 
 ### Stile
-Lo stile del sito, in alcune determinate situazioni, non è ottimale e andrebbe rifinito .
+Lo stile del sito, in alcune determinate situazioni, non è ottimale e andrebbe rifinito.
 
 ### Differenti utenti
-I permessi dei vari utenti sono sempre gli stessi, poichè manca la parte logica di gestione delle azioni disponibili, che sarebbe necessaria nonostante la nostra "politica" di semplicità generale
+I permessi dei vari utenti sono sempre gli stessi, poichè manca la parte logica di gestione delle azioni disponibili, che sarebbe necessaria nonostante la nostra "politica" di semplicità generale.
 
 ### Caricamento lento
 Purtroppo nella versione online del nostro sito, siccome utilizziamo python anywhere come supporto, il caricamento delle varie pagine è alquanto lento.
+
+### Documentazione codice
+Nella frenesia di completare il progetto non sono stati scritti commenti all'interno del codice sorgente, poi sempre per lo stesso motivo è carente la pulizia del codice.
 
 <br>
 

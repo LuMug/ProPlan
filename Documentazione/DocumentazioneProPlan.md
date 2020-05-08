@@ -628,8 +628,6 @@ Attualmente l'aggiunta delle attività si differenzia tra gantt e visualizzazion
 
 # Allegati
 
-Elenco degli allegati, esempio:
-
 - [Diario 24/01/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-01-24.md)
 - [Diario 31/01/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-01-31.md)
 - [Diario 07/02/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-02-07.md)
@@ -641,16 +639,18 @@ Elenco degli allegati, esempio:
 - [Diario 03/04/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-04-03.md)
 - [Diario 24/04/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-04-24.md)
 
--   Codici sorgente/documentazione macchine virtuali
+<object data="../Progettazione/mandato.pdf" type="application/pdf">
+    <embed src="../Progettazione/mandato.pdf">
+        <p><a href="../Progettazione/mandato.pdf">Qui</a> si può visualizzare il mandato</p>
+    </embed>
+</object>
+
+Il codice sorgente si può trovare nella home di github del progetto ProPlan, e possiede il nome web2py.app.ProPlan.w2p
 
 -   Istruzioni di installazione del prodotto (con credenziali
     di accesso) e/o di eventuali prodotti terzi
 
 -   Documentazione di prodotti di terzi
-
--   Eventuali guide utente / Manuali di utilizzo
-
--   Mandato e/o Qdc
 
 -   Prodotto
 

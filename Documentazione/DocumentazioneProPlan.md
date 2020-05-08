@@ -452,12 +452,12 @@ Attualmente l'aggiunta delle attività si differenzia tra gantt e visualizzazion
     </embed>
 </object>
 
-        Il pacchetto del codice sorgente si può trovare nella home di github del progetto ProPlan, e possiede il nome web2py.app.ProPlan.w2p (https://github.com/LuMug/ProPlan).
+    Il pacchetto del codice sorgente si può trovare nella home di github del progetto ProPlan, e possiede il nome web2py.app.ProPlan.w2p (https://github.com/LuMug/ProPlan).
 
 Come accedere al sito:
 
- - Opzione 1: Utilizzare il link che si trova nel capitolo della sitografia ([Clicca qui](#sitografia)), e in seguito registrarsi presso il sito utilizzando una mail consona alle credenziali (@samtrevano.ch o @edu.ti.ch). Una volta che si ha eseguito la registrazione, si può fare il login ed usufruire al nostro servizio.
- - Opzione 2: Nella nostra home di progetto nel github (https://github.com/LuMug/ProPlan), si può trovare il pacchetto del codice sorgente. Dopo aver scaricato il nostro pacchetto, scaricate web2py e python, e potrete poi accedere al nostro da locale.
+Opzione 1: Utilizzare il link che si trova nel capitolo della sitografia ([Clicca qui](#sitografia)), e in seguito registrarsi presso il sito utilizzando una mail consona alle credenziali (@samtrevano.ch o @edu.ti.ch). Una volta che si ha eseguito la registrazione, si può fare il login ed usufruire al nostro servizio.
+Opzione 2: Nella nostra home di progetto nel github (https://github.com/LuMug/ProPlan), si può trovare il pacchetto del codice sorgente. Dopo aver scaricato il nostro pacchetto, scaricate web2py e python, e potrete poi accedere al nostro da locale.
  
  - Documentazione di [web2py](http://web2py.com/book)
  - Documentazione di [python anywhere](https://help.pythonanywhere.com/pages/)

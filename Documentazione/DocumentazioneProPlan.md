@@ -515,6 +515,23 @@ facilmente generalizzabili o sono specifici di un caso particolare? ecc
 -->
 ### Sviluppi futuri
 
+#### Autenticazione tramite email
+Una volta inserita una password valida e una password, l'account è registrato e quella mail non è più utilizzabile da nessun altro: questo può portare a sgradevoli situazioni di account "rubati". Bisognerebbe inviare una mail con un codice di conferma da inserire in un altro form per essere sicuri che chi sta creando l'account è il vero proprietario di quella mail, ma per questo sarebbe necessario creare e configurare un mail server apposito.
+
+#### Password recovery
+Non è possibile resettare la password in caso di perdita ma, anche qui, serve un mail server.
+
+#### Stile
+Lo stile del sito, in alcune determinate situazioni, non è ottimale e andrebbe rifinito .
+
+#### Multilingua
+Web2py include un dizionario per la corrispondenza delle parole nelle varie lingue, quindi bisognerebbe sostituire tutto il testo "hard coded" con queste parole "universali", magari in inglese per chiarezza e coerenza con il resto dell'applicazione.
+
+#### Differenti utenti
+I permessi dei vari utenti sono sempre gli stessi, poichè manca la parte logica di gestione delle azioni disponibili, che sarebbe necessaria nonostante la nostra "politica" di semplicità generale
+
+#### Conversione JSON-gantt
+È possibile, in python, leggere e scrivere file .mpp (microsoft project). Attualmente, il gantt è in json e salvabile al massimo come CSV grazie ad Highcharts, ma sarebbe interessante poterlo eventualmente scaricare (o anche caricare) nel formato più comune per questi tipi di grafici cioè, appunto, .mpp.
 <!--Migliorie o estensioni che possono essere sviluppate sul prodotto.
 -->
 ### Considerazioni personali

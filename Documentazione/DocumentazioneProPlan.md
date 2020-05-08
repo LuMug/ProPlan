@@ -63,22 +63,7 @@ Può contenere alcuni o tutti gli elementi seguenti:
 -   **Risultati**: Quale è la risposta? Quali sono i risultati? Quanto è
     più veloce, più sicuro, più economico o in qualche altro aspetto
     migliore di altri prodotti/soluzioni?
-
-Esempio di abstract:
-
-> *As the size and complexity of today’s most modern computer chips
-> increase, new techniques must be developed to effectively design and
-> create Very Large Scale Integration chips quickly. For this project, a
-> new type of hardware compiler is created. This hardware compiler will
-> read a C++ program, and physically design a suitable microprocessor
-> intended for running that specific program. With this new and powerful
-> compiler, it is possible to design anything from a small adder, to a
-> microprocessor with millions of transistors. Designing new computer
-> chips, such as the Pentium 4, can require dozens of engineers and
-> months of time. With the help of this compiler, a single person could
-> design such a large-scale microprocessor in just weeks.*
--->
-
+    
 <br>
 
 ## Scopo
@@ -89,33 +74,13 @@ Quello che si vuole raggiungere è una via di mezzo tra applicativi come Trello 
 
 <br>
 
-<!--
-Lo scopo del progetto (scopi didattici/scopi operativi). Dovrebbe
-descrivere il mandato, ma non vanno ricopiate le informazioni del
-quaderno dei compiti (che va invece allegato).
--->
 # Analisi
 ## Analisi del dominio
 ProPlan è progettato per l'uso nell'ambiente scolastico della SAMT, andando a sostituire altri programmi (es: trello, eventualmente Microsoft Project e Project Libre). Il software dovrà risiedere da qualche parte nella rete della scuola o quantomeno accessibile da questa, e dovrà quindi far fronte al proxy che blocca parte delle comunicazioni. Lo sviluppo avverrà su una piattaforma apposita di hosting online [pyhtonanywhere](https://www.pythonanywhere.com/).
 Gli utilizzatori saranno allievi ed eventualmente docenti mandanti della SAMT (scuola arti e mestieri di Trevano), che necessitano rispettivamente di imparare e di valutare la gestione dei progetti.
 La conoscenza richiesta, oltre al saper utilizzare un computer per interagire con la pagina vera e propria, è quella di una base delle modalità di gestione di un progetto per poter amministrare l'incarico e un minimo di propensione nel lavoro in team.
 
-<!--
-Questo capitolo dovrebbe descrivere il contesto in cui il prodotto verrà
-utilizzato, da questa analisi dovrebbero scaturire le risposte a quesiti
-quali ad esempio:
--   Background/Situazione iniziale
--   Quale è e come è organizzato il contesto in cui il prodotto dovrà
-    funzionare?
--   Come viene risolto attualmente il problema? Esiste già un prodotto
-    simile?
--   Chi sono gli utenti? Che bisogni hanno? Come e dove lavorano?
--   Che competenze/conoscenze/cultura posseggono gli utenti in relazione
-    con il problema?
--   Esistono convenzioni/standard applicati nel dominio?
--   Che conoscenze teoriche bisogna avere/acquisire per poter operare
-    efficacemente nel dominio?
-    -->
+
 ## Analisi e specifica dei requisiti
 
 <!--
@@ -638,11 +603,9 @@ Attualmente l'aggiunta delle attività si differenzia tra gantt e visualizzazion
     </embed>
 </object>
 
-Il pacchetto del codice sorgente si può trovare nella home di github del progetto ProPlan, e possiede il nome web2py.app.ProPlan.w2p.
+    Il pacchetto del codice sorgente si può trovare nella home di github del progetto ProPlan, e possiede il nome web2py.app.ProPlan.w2p ([Clicca qui](https://github.com/LuMug/ProPlan)).
 
--   Istruzioni di installazione del prodotto (con credenziali
-    di accesso) e/o di eventuali prodotti terzi
+Come accedere al sito:
 
--   Documentazione di prodotti di terzi
-
--   Prodotto
+ - Opzione 1: Utilizzare il link che si trova nel capitolo della sitografia ([Clicca qui](#sitografia)), e in seguito registrarsi presso il sito utilizzando una mail consona alle credenziali (@samtrevano.ch o @edu.ti.ch). Una volta che si ha eseguito la registrazione, si può fare il login ed usufruire al nostro servizio.
+ - Opzione 2: Nella nostra home di 

@@ -369,6 +369,19 @@ Durante l'implementazione, ci siamo resi conto che non tutti i nostri progetti a
 
 ## Risultati test
 
+| Test  | Status  | Date       | Notes |
+|-------|---------|------------|-------|
+| TC-01 | Passato | 2020-05-08 |       |
+| TC-02 | Passato | 2020-05-08 |       |
+| TC-03 | Fallito | 2020-05-08 | Per mancanza di tempo e di capacità non siamo riusciti a fare la password ricovery |
+| TC-04 | Passato | 2020-05-08 |       |
+| TC-05 | Passato | 2020-05-08 |       |
+| TC-06 | Passato | 2020-05-08 |       |
+| TC-07 | Passato | 2020-05-08 |       |
+| TC-08 | Passato | 2020-05-08 |       |
+| TC-09 | Passato | 2020-05-08 |       |
+| TC-10 | Passato | 2020-05-08 |       |
+| TC-11 | Passato | 2020-05-08 |       |
 <!--
 Tabella riassuntiva in cui si inseriscono i test riusciti e non del
 prodotto finale. Se un test non riesce e viene corretto l’errore, questo

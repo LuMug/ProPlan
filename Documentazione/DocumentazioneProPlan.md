@@ -332,6 +332,48 @@ per la realizzazione del prodotto.-->
 
 # Implementazione
 
+## Struttura del sito
+
+### Models
+Nel models, che è la porta logica del MVC, è la parte dove abbiamo definito un database con tutte le tabelle di cui necessitavamo. 
+Ecco la lista delle tabelle che abbiamo utilizzato per questo progetto:
+  - db.auth_user
+  - db.project
+  - db.project_user
+  - db.tast_group
+  - db.tast
+  - db.draft_project
+  - db.final_project
+  - db.user_task
+[Qui](#design-dei-dati-e-database) potrete vedere com'è strutturato il nostro database e le relazioni tra le varie tabelle.
+Nel models oltre a specificare le caratteristiche del database, eseguiamo anche un controllo sui dati che vengono inseriti nella tabella db.auth_user, più precisamente sull'email con cui gli utenti si registrano e sulle password che vengono utilizzate.
+
+### Controllers
+Nel controllers, che è la parte che fa da intermediario tra il models e le views, troviamo tutti i metodi che rendono appunto possibile la comunicazione tra una view e un model. I due controller più importanti sono quello per il sistema di autenticazione utente (login, register, logout, retrieve_password, ...) e quello per il reindirizzamento all'index principale del sito web. Sono presenti anche ovviamente i controller per il reindirizzamento alle altre pagine presenti nel sito, ovvero per i progetti personali e i progetti globali, senza dimenticare anche della pagina per le FAQs
+
+### Views
+Nel Views, che è la parte visiva del MVC, sono presenti tutte le pagine .html che utilizzamo per il nostro sito. Le nostre pagine .html sono quelle elencate qui in seguito:
+ - default/index.html (pagina dell'index principale)
+ - default/user.html (permette di visualizzare tutte le pagine per l'autenticazione utente o correlati)
+ - default/help.html (pagina dove si trovano le FAQs)
+ - projectlist/index.html (pagina dei progetti globali)
+ - projectlist/createProject.html (pagina dov'è presente il form per creare un nuovo progetto)
+ - project/ganttView.html (pagina della parte del gantt quando si è all'interno di un progetto)
+ - project/index.html (pagina di gestione di un progetto)
+
+## Design delle interfacce
+I design delle interfacce che avevamo progettato, sono molto differenti da come le abbiamo sviluppate. Solo due interfacce rispoecchiano la nostra progettazione, e sono la dashboard iniziale del sito, e la pagina di autenticazione utente. I colori differiscono un po' nella pagina di autenticazione utente, ma la struttura è la stessa.
+Per le pagine dei progetti globali e i progetti personali invece è tutto diverso, non è minimamente simile alla progettazione. Questo è causato dalle difficoltà riscontrate durante lo sviluppo e dalla nostra mancanza di conoscenza riguardo la struttura di web2py.
+
+In seguito potete vedere le pagine da noi sviluppate riguardo i progetti globali e quelli personali
+*immagine progetti globali*
+*immagine progetti personali*
+
+Differenze: ...
+
+## Logica del sito / design procedurale *nome temporaneo*
+La logica del funzionamento del sito non è stata sviluppata al 100% come era stato progettato, ma buona parte della progettazione è stata implementata com'era programmato. Tutta la logica di autenticazione utente era già presente grazie a web2py, ma questo non ha fatto differenza dalla nostra progettazione. ...
+
 ## Use cases
 Questa parte della progettazione è risultata affidabile e ha fornito un'utile guida per darci un idea su cosa fare. È stato rispettato, ma abbiamo dovuto tralasciare la parte di reset della password dell'account per mancanza di tempo per studiare, valutare e implementare le risorse necessarie (creare e configurare un mail server, o trovare un servizio che invii mail utilizzabile da uno script, definire tutta la parte di gestione dello scambio di dati sensibili,...).
 
@@ -565,50 +607,15 @@ Attualmente l'aggiunta delle attività si differenzia tra gantt e visualizzazion
 <!--Migliorie o estensioni che possono essere sviluppate sul prodotto.
 -->
 ## Considerazioni personali
-
-<!--
-  Cosa ho imparato in questo progetto? ecc
--->
-<br>
-
-# Bibliografia
-
-## Bibliografia per articoli di riviste
-1.  Cognome e nome (o iniziali) dell’autore o degli autori, o nome
-    dell’organizzazione,
-
-2.  Titolo dell’articolo (tra virgolette),
-
-3.  Titolo della rivista (in italico),
-
-4.  Anno e numero
-
-5.  Pagina iniziale dell’articolo,
-
-## Bibliografia per libri
-
-
-1.  Cognome e nome (o iniziali) dell’autore o degli autori, o nome
-    dell’organizzazione,
-
-2.  Titolo del libro (in italico),
-
-3.  ev. Numero di edizione,
-
-4.  Nome dell’editore,
-
-5.  Anno di pubblicazione,
-
-6.  ISBN.
+-   Jure: "Lavorare in gruppo è stato più complicato del previsto, però alla fine mi sono adattato e ho provato ad essere più efficacie per poter lavorare in sincronia con il gruppo. È stato un progetto anch'esso più difficile del previsto, ma è stato un progetto interessante da implementare. ...altro"
+-   Filippo:
+-   Kushtrim:
+-   Jonathan:
 
 ## Sitografia
 
-1.  URL del sito (se troppo lungo solo dominio, evt completo nel
-    diario),
-
-2.  Eventuale titolo della pagina (in italico),
-
-3.  Data di consultazione (GG-MM-AAAA).
+-   https://proplansamt2020.pythonanywhere.com/ProPlan/default/index, 
+    *ProPlan*, 06-05-2020.
 
 **Esempio:**
 
@@ -619,7 +626,16 @@ Attualmente l'aggiunta delle attività si differenzia tra gantt e visualizzazion
 
 Elenco degli allegati, esempio:
 
--   Diari di lavoro
+- [Diario 24/01/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-01-24.md)
+- [Diario 31/01/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-01-31.md)
+- [Diario 07/02/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-02-07.md)
+- [Diario 14/02/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-02-14.md)
+- [Diario 21/02/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-02-21.md)
+- [Diario 06/03/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-03-06.md)
+- [Diario 13/03/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-03-13.md)
+- [Diario 27/03/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-03-27.md)
+- [Diario 03/04/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-04-03.md)
+- [Diario 24/04/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-04-24.md)
 
 -   Codici sorgente/documentazione macchine virtuali
 

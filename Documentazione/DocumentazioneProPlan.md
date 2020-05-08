@@ -436,7 +436,7 @@ In futuro, sarebbe più conveniente utilizzare il linguaggio MySql per la creazi
 ## Sitografia
 
 -   https://proplansamt2020.pythonanywhere.com/ProPlan/default/index, 
-    *ProPlan*, 06-05-2020.
+    *ProPlan*, 08-05-2020.
 
 # Allegati
 
@@ -450,6 +450,7 @@ In futuro, sarebbe più conveniente utilizzare il linguaggio MySql per la creazi
 - [Diario 27/03/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-03-27.md)
 - [Diario 03/04/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-04-03.md)
 - [Diario 24/04/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-04-24.md)
+- [Diario 08/05/2020](./Diari/KUSRUS_JONMUE_JURGRG_FILZIN_PROPLAN_2020-05-08.md)
 
 <object data="../Progettazione/mandato.pdf" type="application/pdf">
     <embed src="../Progettazione/mandato.pdf">

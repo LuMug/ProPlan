@@ -47,13 +47,6 @@ Questa comprende una scomposizione del lavoro in fasi più piccole e più gestib
 È per questo che abbiamo sviluppato ProPlan, uno strumento che permette di creare e gestire piccoli progetti in modo immediato e senza quindi perdersi in impostazioni e funzionalità superflue.
 La piattaforma è sviluppata in python, linguaggio sempre più popolare grazie alla sua semplicità, che rispecchia quindi perfettamente gli ideali del progetto.
 
-<!--
-E’ una breve e accurata rappresentazione dei contenuti di un documento,
-senza notazioni critiche o valutazioni. Lo scopo di un abstract efficace
-dovrebbe essere quello di far conoscere all’utente il contenuto di base
-di un documento e metterlo nella condizione di decidere se risponde ai
-suoi interessi e se è opportuno il ricorso al documento originale.
-
 Può contenere alcuni o tutti gli elementi seguenti:
 
 -   **Background/Situazione iniziale**
@@ -645,7 +638,7 @@ Attualmente l'aggiunta delle attività si differenzia tra gantt e visualizzazion
     </embed>
 </object>
 
-Il codice sorgente si può trovare nella home di github del progetto ProPlan, e possiede il nome web2py.app.ProPlan.w2p
+Il pacchetto del codice sorgente si può trovare nella home di github del progetto ProPlan, e possiede il nome web2py.app.ProPlan.w2p.
 
 -   Istruzioni di installazione del prodotto (con credenziali
     di accesso) e/o di eventuali prodotti terzi
@@ -653,5 +646,3 @@ Il codice sorgente si può trovare nella home di github del progetto ProPlan, e 
 -   Documentazione di prodotti di terzi
 
 -   Prodotto
-
--   …

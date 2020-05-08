@@ -426,7 +426,7 @@ Attualmente l'aggiunta delle attività si differenzia tra gantt e visualizzazion
 ### Conversione linguaggio di programmazione per database
 In futuro, sarebbe più conveniente utilizzare il linguaggio MySql per la creazione e gestione del database anzichè SQLite (ovvero quello che stiamo usando attualmente).
 
-<!--Migliorie o estensioni che possono essere sviluppate sul prodotto.
+
 ## Considerazioni personali
 -   Jure: "Lavorare in gruppo è stato più complicato del previsto, però alla fine mi sono adattato e ho provato ad essere più efficace per poter lavorare in sincronia con il gruppo. È stato un progetto anch'esso più difficile del previsto, ma è stato un progetto interessante da implementare. ...altro"
 -   Filippo:

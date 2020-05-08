@@ -527,11 +527,15 @@ facilmente generalizzabili o sono specifici di un caso particolare? ecc
 -->
 ### Sviluppi futuri
 
-#### Multilingua
+#### Supporto multilingua
 Web2py include un dizionario per la corrispondenza delle parole nelle varie lingue, quindi bisognerebbe sostituire tutto il testo "hard coded" con queste parole "universali", magari in inglese per chiarezza e coerenza con il resto dell'applicazione.
+
+### Aggiunta attività
+Attualmente l'aggiunta delle attività si differenzia tra gantt e visualizzazione normale: nel primo avviene dinamicamente senza aggiornare la pagina, nel secondo no.
 
 #### Conversione JSON-gantt
 È possibile, in python, leggere e scrivere file .mpp (microsoft project). Attualmente, il gantt è in json e salvabile al massimo come CSV grazie ad Highcharts, ma sarebbe interessante poterlo eventualmente scaricare (o anche caricare) nel formato più comune per questi tipi di grafici cioè, appunto, .mpp.
+
 <!--Migliorie o estensioni che possono essere sviluppate sul prodotto.
 -->
 ### Considerazioni personali
